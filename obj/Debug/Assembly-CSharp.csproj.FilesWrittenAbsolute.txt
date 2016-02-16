@@ -1,0 +1,13 @@
+/Users/ralph/Documents/github/Hot patata/Temp/bin/Debug/UnityEngine.dll
+/Users/ralph/Documents/github/Hot patata/Temp/bin/Debug/UnityEditor.dll
+/Users/ralph/Documents/github/Hot patata/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/ralph/Documents/github/Hot patata/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/ralph/Documents/github/Hot patata/Temp/bin/Debug/Mono.Cecil.dll
+/Users/ralph/Documents/github/Hot patata/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/ralph/Documents/github/Hot patata/Temp/bin/Debug/Unity.DataContract.dll
+/Users/ralph/Documents/github/Hot patata/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/ralph/Documents/github/Hot patata/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/ralph/Documents/github/Hot patata/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/ralph/Documents/github/Hot patata/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/ralph/Documents/github/Hot patata/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/ralph/Documents/github/Hot patata/Temp/bin/Debug/Mono.Cecil.Mdb.dll

@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 2bfa4a0957eec4c3380a1420837d4cc1
+timeCreated: 1449814021
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: arch
+    100002: //RootNode
+    100004: door1
+    100006: door2
+    100008: screw1
+    100010: screw10
+    100012: screw2
+    100014: screw3
+    100016: screw4
+    100018: screw5
+    100020: screw6
+    100022: screw7
+    100024: screw8
+    100026: screw9
+    400000: arch
+    400002: //RootNode
+    400004: door1
+    400006: door2
+    400008: screw1
+    400010: screw10
+    400012: screw2
+    400014: screw3
+    400016: screw4
+    400018: screw5
+    400020: screw6
+    400022: screw7
+    400024: screw8
+    400026: screw9
+    2300000: arch
+    2300002: door1
+    2300004: door2
+    2300006: screw1
+    2300008: screw10
+    2300010: screw2
+    2300012: screw3
+    2300014: screw4
+    2300016: screw5
+    2300018: screw6
+    2300020: screw7
+    2300022: screw8
+    2300024: screw9
+    3300000: arch
+    3300002: door1
+    3300004: door2
+    3300006: screw1
+    3300008: screw10
+    3300010: screw2
+    3300012: screw3
+    3300014: screw4
+    3300016: screw5
+    3300018: screw6
+    3300020: screw7
+    3300022: screw8
+    3300024: screw9
+    4300000: door1
+    4300002: screw5
+    4300004: arch
+    4300006: screw1
+    4300008: screw2
+    4300010: screw3
+    4300012: screw4
+    4300014: door2
+    4300016: screw6
+    4300018: screw7
+    4300020: screw8
+    4300022: screw9
+    4300024: screw10
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

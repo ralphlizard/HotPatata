@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: b8a1070c4253e4747be90029923f8875
+timeCreated: 1449824722
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: bleg_1_L
+    100002: bleg_1_R
+    100004: bleg_2_L
+    100006: bleg_2_R
+    100008: bleg_3_L
+    100010: bleg_3_R
+    100012: bleg_4_L
+    100014: bleg_4_R
+    100016: bleg_root_L
+    100018: bleg_root_R
+    100020: //RootNode
+    100022: butterfly_model
+    100024: bwing1_L
+    100026: bwing1_R
+    100028: bwing_L
+    100030: bwing_R
+    100032: chest
+    100034: fleg_1_L
+    100036: fleg_1_R
+    100038: fleg_2_L
+    100040: fleg_2_R
+    100042: fleg_3_L
+    100044: fleg_3_R
+    100046: fleg_root_L
+    100048: fleg_root_R
+    100050: fwing_1_L
+    100052: fwing_1_R
+    100054: fwing_L
+    100056: fwing_R
+    100058: head
+    100060: leg_root
+    100062: melg_2_L
+    100064: melg_2_R
+    100066: mleg_1_L
+    100068: mleg_1_R
+    100070: mleg_3_L
+    100072: mleg_3_R
+    100074: mleg_4_L
+    100076: mleg_4_R
+    100078: mleg_root_L
+    100080: mleg_root_R
+    100082: root
+    100084: tail
+    400000: bleg_1_L
+    400002: bleg_1_R
+    400004: bleg_2_L
+    400006: bleg_2_R
+    400008: bleg_3_L
+    400010: bleg_3_R
+    400012: bleg_4_L
+    400014: bleg_4_R
+    400016: bleg_root_L
+    400018: bleg_root_R
+    400020: //RootNode
+    400022: butterfly_model
+    400024: bwing1_L
+    400026: bwing1_R
+    400028: bwing_L
+    400030: bwing_R
+    400032: chest
+    400034: fleg_1_L
+    400036: fleg_1_R
+    400038: fleg_2_L
+    400040: fleg_2_R
+    400042: fleg_3_L
+    400044: fleg_3_R
+    400046: fleg_root_L
+    400048: fleg_root_R
+    400050: fwing_1_L
+    400052: fwing_1_R
+    400054: fwing_L
+    400056: fwing_R
+    400058: head
+    400060: leg_root
+    400062: melg_2_L
+    400064: melg_2_R
+    400066: mleg_1_L
+    400068: mleg_1_R
+    400070: mleg_3_L
+    400072: mleg_3_R
+    400074: mleg_4_L
+    400076: mleg_4_R
+    400078: mleg_root_L
+    400080: mleg_root_R
+    400082: root
+    400084: tail
+    4300000: butterfly_model
+    9500000: //RootNode
+    13700000: butterfly_model
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: bfe15e215bc414ccdb89d2a932744ec2
+timeCreated: 1449824720
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: bleg_1_L
+    100002: bleg_1_R
+    100004: bleg_2_L
+    100006: bleg_2_R
+    100008: bleg_3_L
+    100010: bleg_3_R
+    100012: bleg_4_L
+    100014: bleg_4_R
+    100016: bleg_5_L
+    100018: bleg_5_R
+    100020: bleg_root_L
+    100022: bleg_root_R
+    100024: //RootNode
+    100026: butterfly_model
+    100028: bwing1_L
+    100030: bwing1_R
+    100032: bwing_L
+    100034: bwing_R
+    100036: bwing_root
+    100038: bwing_root 1
+    100040: chest
+    100042: fleg_1_L
+    100044: fleg_1_R
+    100046: fleg_2_L
+    100048: fleg_2_R
+    100050: fleg_3_L
+    100052: fleg_3_R
+    100054: fleg_4_L
+    100056: fleg_4_R
+    100058: fleg_root_L
+    100060: fleg_root_R
+    100062: fwing1_root
+    100064: fwing1_root 1
+    100066: fwing_1_L
+    100068: fwing_1_R
+    100070: fwing_L
+    100072: fwing_R
+    100074: head
+    100076: headroot
+    100078: leg_root
+    100080: melg_2_L
+    100082: melg_2_R
+    100084: mleg_1_L
+    100086: mleg_1_R
+    100088: mleg_3_L
+    100090: mleg_3_R
+    100092: mleg_4_L
+    100094: mleg_4_R
+    100096: mleg_5_L
+    100098: mleg_5_R
+    100100: mleg_root_L
+    100102: mleg_root_R
+    100104: root
+    100106: tail
+    400000: bleg_1_L
+    400002: bleg_1_R
+    400004: bleg_2_L
+    400006: bleg_2_R
+    400008: bleg_3_L
+    400010: bleg_3_R
+    400012: bleg_4_L
+    400014: bleg_4_R
+    400016: bleg_5_L
+    400018: bleg_5_R
+    400020: bleg_root_L
+    400022: bleg_root_R
+    400024: //RootNode
+    400026: butterfly_model
+    400028: bwing1_L
+    400030: bwing1_R
+    400032: bwing_L
+    400034: bwing_R
+    400036: bwing_root
+    400038: bwing_root 1
+    400040: chest
+    400042: fleg_1_L
+    400044: fleg_1_R
+    400046: fleg_2_L
+    400048: fleg_2_R
+    400050: fleg_3_L
+    400052: fleg_3_R
+    400054: fleg_4_L
+    400056: fleg_4_R
+    400058: fleg_root_L
+    400060: fleg_root_R
+    400062: fwing1_root
+    400064: fwing1_root 1
+    400066: fwing_1_L
+    400068: fwing_1_R
+    400070: fwing_L
+    400072: fwing_R
+    400074: head
+    400076: headroot
+    400078: leg_root
+    400080: melg_2_L
+    400082: melg_2_R
+    400084: mleg_1_L
+    400086: mleg_1_R
+    400088: mleg_3_L
+    400090: mleg_3_R
+    400092: mleg_4_L
+    400094: mleg_4_R
+    400096: mleg_5_L
+    400098: mleg_5_R
+    400100: mleg_root_L
+    400102: mleg_root_R
+    400104: root
+    400106: tail
+    4300000: butterfly_model
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: butterfly_model
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
