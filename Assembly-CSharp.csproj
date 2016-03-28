@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0BBA04D2-07EF-6894-2FF5-83FA31B2DD8F}</ProjectGuid>
+    <ProjectGuid>{05679D3F-E092-680A-C838-3C17537F53F2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -91,6 +91,7 @@
      <Compile Include="Assets\Scripts\PineappleText.cs" />
      <Compile Include="Assets\Scripts\RecordPlayer.cs" />
      <Compile Include="Assets\Scripts\RecordText.cs" />
+     <Compile Include="Assets\camerLock.cs" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\Shader\Ramp.shader" />
      <None Include="Assets\Plugins\Android\assets\donotdelete.txt" />

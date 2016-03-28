@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
+using UnityEngine.Networking;
 using System.Collections;
 
-public class GazeController : MonoBehaviour {
+public class GazeController : NetworkBehaviour {
 
-	private Camera mainCamera;
+	public Camera mainCamera;
 	private GameObject gazeTarget;
 	private bool activeExists;
 	private RaycastHit hit;
@@ -12,7 +13,8 @@ public class GazeController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		mainCamera = Camera.main;
+		if (isLocalPlayer)
+			mainCamera.enabled = true;
 	}
 	
 	// Update is called once per frame

@@ -5,8 +5,7 @@ using System.Collections;
 public class BendingSegment {
 	public Transform firstTransform;
 	public Transform lastTransform;
-	public Transform firstTail;
-	public Transform lastTail;
+	public Transform targetCamera;
 	public float thresholdAngleDifference = 0;
 	public float bendingMultiplier = 0.6f;
 	public float maxAngleDifference = 30;
@@ -101,6 +100,7 @@ public class HeadLookController : MonoBehaviour {
 
 			// Desired look direction in world space
 			Vector3 lookDirWorld = (target - segment.lastTransform.position).normalized;
+
 
 			// Desired look directions in neck parent space
 			Vector3 lookDirGoal = (parentRotInv * lookDirWorld);
@@ -197,35 +197,6 @@ public class HeadLookController : MonoBehaviour {
 					)
 				)
 			);
-				
-			/////////////////
-			/// Tail turn
-			Vector3 tailDirGoal = Quaternion.AngleAxis(segment.angleH, segment.referenceUpDir)
-				* segment.referenceLookDir;
-//			Vector3.OrthoNormalize(ref tailDirGoal, ref upDirGoal);
-			Vector3 tailDir = tailDirGoal;
-//			Vector3.OrthoNormalize(ref tailDir, ref segment.dirUp);
-			Quaternion tailParentRot = segment.lastTail.parent.rotation;
-			Quaternion tailRot = (
-				(tailParentRot * Quaternion.LookRotation(tailDir, segment.dirUp))
-				* Quaternion.Inverse(
-					tailParentRot * Quaternion.LookRotation(
-						segment.referenceLookDir, segment.referenceUpDir
-					)
-				)
-			);
-
-			Quaternion dividedTail =
-				Quaternion.Slerp(Quaternion.identity, tailRot, effect / segment.chainLength);
-//			t.eulerAngles = new Vector3(tailDir.x , 0, 0);
-
-			/*
-			for (int i=0; i<segment.chainLength; i++) {
-				t.rotation = dividedTail * t.rotation;
-				t = t.parent;
-			}
-			*/
-			//////////////////
 
 			// Distribute rotation over all joints in segment
 			Quaternion dividedRotation =
