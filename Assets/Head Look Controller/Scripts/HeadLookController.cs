@@ -5,7 +5,6 @@ using System.Collections;
 public class BendingSegment {
 	public Transform firstTransform;
 	public Transform lastTransform;
-	public Transform targetCamera;
 	public float thresholdAngleDifference = 0;
 	public float bendingMultiplier = 0.6f;
 	public float maxAngleDifference = 30;
@@ -163,6 +162,7 @@ public class HeadLookController : MonoBehaviour {
 
 			///////////
 			/// Body turn
+			/*
 			if (vAngle > -segment.maxVerAngle && vAngle < segment.maxVerAngle)
 			{
 				segment.deltaH = Mathf.Lerp(
@@ -170,6 +170,7 @@ public class HeadLookController : MonoBehaviour {
 				);
 				rootNode.eulerAngles = new Vector3(rootNode.eulerAngles.x, rootNode.eulerAngles.y+segment.deltaH, rootNode.eulerAngles.z);
 			}
+			*/
 			////////////
 		
 			// Get direction

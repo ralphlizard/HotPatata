@@ -1,0 +1,3721 @@
+fileFormatVersion: 2
+guid: 9853f0a0e8516664f99abd3ba880cb1e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Chest
+    100004: Chest_R_002
+    100006: Cube_006
+    100008: Foot_IK_L
+    100010: Foot_IK_R
+    100012: Foot_IKMain_L
+    100014: Foot_IKMain_R
+    100016: Foot_L
+    100018: Foot_R
+    100020: Hand_L
+    100022: Head
+    100024: Hip
+    100026: HipsMain
+    100028: //RootNode
+    100030: LowerArm_L
+    100032: LowerArm_R
+    100034: LowerLeg_L
+    100036: LowerLeg_R
+    100038: Neck
+    100040: PullTarget_L
+    100042: PullTarget_R
+    100044: RollBack_L
+    100046: RollBack_R
+    100048: RollFront_L
+    100050: RollFront_R
+    100052: RollMain_L
+    100054: RollMain_R
+    100056: Shoulder_L
+    100058: Shoulder_R
+    100060: Stomach
+    100062: Toe_L
+    100064: Toe_R
+    100066: UpperArm_L
+    100068: UpperArm_R
+    100070: UpperLeg_L
+    100072: UpperLeg_R
+    400000: Armature
+    400002: Chest
+    400004: Chest_R_002
+    400006: Cube_006
+    400008: Foot_IK_L
+    400010: Foot_IK_R
+    400012: Foot_IKMain_L
+    400014: Foot_IKMain_R
+    400016: Foot_L
+    400018: Foot_R
+    400020: Hand_L
+    400022: Head
+    400024: Hip
+    400026: HipsMain
+    400028: //RootNode
+    400030: LowerArm_L
+    400032: LowerArm_R
+    400034: LowerLeg_L
+    400036: LowerLeg_R
+    400038: Neck
+    400040: PullTarget_L
+    400042: PullTarget_R
+    400044: RollBack_L
+    400046: RollBack_R
+    400048: RollFront_L
+    400050: RollFront_R
+    400052: RollMain_L
+    400054: RollMain_R
+    400056: Shoulder_L
+    400058: Shoulder_R
+    400060: Stomach
+    400062: Toe_L
+    400064: Toe_R
+    400066: UpperArm_L
+    400068: UpperArm_R
+    400070: UpperLeg_L
+    400072: UpperLeg_R
+    4300000: Cube_006
+    7400000: Default Take
+    7400002: Fire_Pistol
+    7400004: getupFromBack
+    7400006: getupFromStomach
+    7400008: idle
+    7400010: idle_Walk4
+    7400012: maintenanceWorking
+    7400014: Melee_Pistol_001
+    7400016: Reload_Pistol
+    7400018: Run_Back_Pistol
+    7400020: Run_Left_Pistol
+    7400022: Run_Rifle
+    7400024: Run_Right_Pistol
+    7400026: Run2_Pistol
+    7400028: Run2_Pistol_Back
+    7400030: Run2_Pistol_BackLeft
+    7400032: Run2_Pistol_BackRight
+    7400034: Run2_Pistol_ForwardLeft
+    7400036: Run2_Pistol_ForwardRight
+    7400038: Run2_Pistol_Left
+    7400040: Run2_Pistol_Right
+    7400042: Sidestep_Left_Pistol
+    7400044: Sidestep_Right_Pistol
+    7400046: Walk_Back_Pistol
+    7400048: Walk_Pistol
+    7400050: Walk_Rifle
+    7400052: Walk2
+    7400054: Walk3
+    7400056: Walk3_forwardleft
+    7400058: Walk3_back_001
+    7400060: walk3_left
+    7400062: walk3_right
+    9500000: //RootNode
+    13700000: Cube_006
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fire_Pistol
+      takeName: Fire_Pistol
+      firstFrame: -1
+      lastFrame: 9
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: getupFromBack
+      takeName: getupFromBack
+      firstFrame: -1
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: getupFromStomach
+      takeName: getupFromStomach
+      firstFrame: -1
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: idle
+      firstFrame: -1
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle_Walk4
+      takeName: idle_Walk4
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: maintenanceWorking
+      takeName: maintenanceWorking
+      firstFrame: -2
+      lastFrame: 181
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Melee_Pistol_001
+      takeName: Melee_Pistol_001
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Reload_Pistol
+      takeName: Reload_Pistol
+      firstFrame: -1
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run_Back_Pistol
+      takeName: Run_Back_Pistol
+      firstFrame: -1
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run_Left_Pistol
+      takeName: Run_Left_Pistol
+      firstFrame: -1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run_Rifle
+      takeName: Run_Rifle
+      firstFrame: -1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run_Right_Pistol
+      takeName: Run_Right_Pistol
+      firstFrame: -1
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run2_Pistol
+      takeName: Run2_Pistol
+      firstFrame: -1
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run2_Pistol_Back
+      takeName: Run2_Pistol_Back
+      firstFrame: -1
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run2_Pistol_BackLeft
+      takeName: Run2_Pistol_BackLeft
+      firstFrame: -1
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run2_Pistol_BackRight
+      takeName: Run2_Pistol_BackRight
+      firstFrame: -1
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run2_Pistol_ForwardLeft
+      takeName: Run2_Pistol_ForwardLeft
+      firstFrame: -1
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run2_Pistol_ForwardRight
+      takeName: Run2_Pistol_ForwardRight
+      firstFrame: -1
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run2_Pistol_Left
+      takeName: Run2_Pistol_Left
+      firstFrame: -1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run2_Pistol_Right
+      takeName: Run2_Pistol_Right
+      firstFrame: -1
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Sidestep_Left_Pistol
+      takeName: Sidestep_Left_Pistol
+      firstFrame: -1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Sidestep_Right_Pistol
+      takeName: Sidestep_Right_Pistol
+      firstFrame: -1
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk_Back_Pistol
+      takeName: Walk_Back_Pistol
+      firstFrame: -1
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk_Pistol
+      takeName: Walk_Pistol
+      firstFrame: -1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk_Rifle
+      takeName: Walk_Rifle
+      firstFrame: -1
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk2
+      takeName: Walk2
+      firstFrame: -1
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk3
+      takeName: Walk3
+      firstFrame: -1
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk3_forwardleft
+      takeName: Walk3_forwardleft
+      firstFrame: -1
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk3_back_001
+      takeName: Walk3_back_001
+      firstFrame: -1
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk3_left
+      takeName: walk3_left
+      firstFrame: -1
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk3_right
+      takeName: walk3_right
+      firstFrame: -1
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Foot_IKMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/PullTarget_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollBack_L/RollFront_L/Foot_IK_L
+        weight: 0
+      - path: Armature/Foot_IKMain_L/RollMain_L
+        weight: 0
+      - path: Armature/Foot_IKMain_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/PullTarget_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollBack_R/RollFront_R/Foot_IK_R
+        weight: 0
+      - path: Armature/Foot_IKMain_R/RollMain_R
+        weight: 0
+      - path: Armature/HipsMain
+        weight: 1
+      - path: Armature/HipsMain/Hip
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Neck/Head
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_L/UpperArm_L/LowerArm_L/Hand_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/Stomach/Chest/Shoulder_R/UpperArm_R/LowerArm_R/Chest_R_002
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_L/LowerLeg_L/Foot_L/Toe_L
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/HipsMain/Hip/UpperLeg_R/LowerLeg_R/Foot_R/Toe_R
+        weight: 1
+      - path: Cube_006
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Hip
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperLeg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerLeg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Stomach
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Shoulder_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpperArm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowerArm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest_R_002
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toe_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toe_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: johny23_getup(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Armature
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Foot_IKMain_L
+      position: {x: -.021544151, y: .0141698904, z: .010842151}
+      rotation: {x: .5, y: .5, z: .5, w: -.5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: PullTarget_L
+      position: {x: .0858957842, y: .00146662456, z: -.0595323071}
+      rotation: {x: 7.54979084e-08, y: 1, z: 4.37113812e-08, w: 4.37091359e-08}
+      scale: {x: .999999762, y: 1, z: 1}
+      transformModified: 1
+    - name: RollBack_L
+      position: {x: -.00494052377, y: .00192290137, z: .00682005798}
+      rotation: {x: .704791844, y: .0601467825, z: .704295278, w: .060158398}
+      scale: {x: .999999821, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: RollFront_L
+      position: {x: -.0259018894, y: 9.46340162e-09, z: 2.72535017e-05}
+      rotation: {x: .000701547018, y: 9.94740219e-08, z: .999999762, w: -3.13988295e-07}
+      scale: {x: .999999762, y: 1.00000012, z: .999999881}
+      transformModified: 1
+    - name: Foot_IK_L
+      position: {x: -.0188511182, y: -.000739133742, z: .00494463323}
+      rotation: {x: .128517538, y: .0187770817, z: .991227984, w: -.0244504008}
+      scale: {x: .999999821, y: .999999702, z: .99999994}
+      transformModified: 1
+    - name: RollMain_L
+      position: {x: -3.12149528e-10, y: -8.18559664e-10, z: 8.1855972e-10}
+      rotation: {x: -.0575911887, y: .701664567, z: -.0575912744, w: .707837105}
+      scale: {x: 1, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: Foot_IKMain_R
+      position: {x: .020783551, y: .0141698904, z: .010842151}
+      rotation: {x: .5, y: .5, z: .5, w: -.5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: PullTarget_R
+      position: {x: .0858957916, y: -.00146663911, z: -.0595323071}
+      rotation: {x: 7.54979084e-08, y: 1, z: 4.37113812e-08, w: 4.37091359e-08}
+      scale: {x: .999999762, y: 1, z: 1}
+      transformModified: 1
+    - name: RollBack_R
+      position: {x: -.00494052377, y: -.00192290347, z: .00682005798}
+      rotation: {x: .704796612, y: -.0602023676, z: .704290509, w: -.060103368}
+      scale: {x: .999999821, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: RollFront_R
+      position: {x: -.0259018894, y: -7.97765054e-09, z: 2.72509915e-05}
+      rotation: {x: .000701408542, y: -.00024124328, z: .999999762, w: 9.37100282e-08}
+      scale: {x: .999999762, y: 1.00000024, z: .999999881}
+      transformModified: 1
+    - name: Foot_IK_R
+      position: {x: -.0188511219, y: .000737522612, z: .00494487351}
+      rotation: {x: .128520399, y: -.0189383961, z: .991225064, w: .0244281609}
+      scale: {x: .99999994, y: 1.00000012, z: .999999762}
+      transformModified: 1
+    - name: RollMain_R
+      position: {x: 4.99317254e-10, y: -8.18559664e-10, z: 8.1855972e-10}
+      rotation: {x: .0570813045, y: .701622903, z: .0580967702, w: .70787847}
+      scale: {x: 1, y: 1.00000012, z: .999999821}
+      transformModified: 1
+    - name: HipsMain
+      position: {x: -0, y: 0, z: .22068958}
+      rotation: {x: .49999994, y: -.50000006, z: .49999994, w: .50000006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hip
+      position: {x: -.031239586, y: 2.35852204e-09, z: -5.20099981e-14}
+      rotation: {x: -3.10541061e-15, y: -7.54979013e-08, z: 1, w: -4.37091323e-08}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Stomach
+      position: {x: -.031239586, y: 2.35852271e-09, z: 4.29999981e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Chest
+      position: {x: -.0485668927, y: 3.66669695e-09, z: -1.13999994e-15}
+      rotation: {x: -6.95563296e-09, y: -.0921301469, z: 1.93668359e-17, w: .99574697}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Neck
+      position: {x: -.0387029797, y: 2.92199331e-09, z: 2.38418574e-09}
+      rotation: {x: .962209165, y: -.000792712672, z: -.272310227, w: -.00016676799}
+      scale: {x: 1.00000036, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: Head
+      position: {x: -.0276801419, y: 2.11875872e-09, z: -1.09249068e-10}
+      rotation: {x: 9.30572569e-05, y: .182503685, z: -.000804647279, w: .983204842}
+      scale: {x: .999999881, y: 1, z: .99999994}
+      transformModified: 1
+    - name: Shoulder_L
+      position: {x: -.0387029797, y: 2.92199331e-09, z: 2.38418574e-09}
+      rotation: {x: -.398457468, y: -.524950147, z: .597550988, w: .456718534}
+      scale: {x: .999999881, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: UpperArm_L
+      position: {x: -.0497990698, y: 3.87430177e-09, z: 9.90927163e-09}
+      rotation: {x: .137625813, y: .105612181, z: -.00198644772, w: .984835684}
+      scale: {x: .999999881, y: 1, z: .999999881}
+      transformModified: 1
+    - name: LowerArm_L
+      position: {x: -.0614365935, y: -3.42726691e-09, z: -1.93715088e-09}
+      rotation: {x: -.0358204693, y: .00541762263, z: -.000960532168, w: .999343097}
+      scale: {x: 1.00000012, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Hand_L
+      position: {x: -.0501489677, y: 3.57627861e-09, z: 1.99675547e-08}
+      rotation: {x: .179981321, y: .0112609742, z: .0533220991, w: .982159197}
+      scale: {x: .999999702, y: .999999762, z: .999999821}
+      transformModified: 1
+    - name: Shoulder_R
+      position: {x: -.0387029797, y: 2.92199331e-09, z: 2.38418574e-09}
+      rotation: {x: -.398457378, y: .524950206, z: .597550988, w: -.456718564}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: UpperArm_R
+      position: {x: -.0497990735, y: 3.42726691e-09, z: 1.11199912e-08}
+      rotation: {x: -.137625813, y: .105612114, z: .00198646169, w: .984835684}
+      scale: {x: 1, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: LowerArm_R
+      position: {x: -.0614365935, y: 1.53481956e-08, z: -1.97440375e-09}
+      rotation: {x: .035820514, y: .00541742938, z: .000960404694, w: .999343157}
+      scale: {x: 1, y: .999999821, z: 1}
+      transformModified: 1
+    - name: Chest_R_002
+      position: {x: -.0501489714, y: 3.57627861e-09, z: 2.02655794e-08}
+      rotation: {x: -.179981306, y: .0112609947, z: -.0533220842, w: .982159197}
+      scale: {x: 1, y: .999999881, z: 1}
+      transformModified: 1
+    - name: UpperLeg_L
+      position: {x: -.000272447185, y: -.0199063551, z: -.000191423256}
+      rotation: {x: .0125269471, y: -.379882097, z: .924929738, w: .00613723649}
+      scale: {x: 1.00000024, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: LowerLeg_L
+      position: {x: -.0930206925, y: 5.66244118e-09, z: 1.34110445e-09}
+      rotation: {x: -.00169585226, y: -.0315741636, z: -.041949179, w: .998619318}
+      scale: {x: 1, y: .999999821, z: .99999994}
+      transformModified: 1
+    - name: Foot_L
+      position: {x: -.0866599381, y: 5.58793545e-09, z: 1.26659871e-09}
+      rotation: {x: .24434112, y: .623835504, z: .215545475, w: .710399091}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Toe_L
+      position: {x: -.0194575824, y: 1.22934574e-09, z: -6.01994121e-10}
+      rotation: {x: -.00554871466, y: .0429136492, z: -.00753953541, w: .999034941}
+      scale: {x: .999999762, y: .99999994, z: .999999881}
+      transformModified: 1
+    - name: UpperLeg_R
+      position: {x: -.000272444246, y: .0191457532, z: -.000191423256}
+      rotation: {x: .0132311229, y: -.379906148, z: .924919784, w: .00443502562}
+      scale: {x: 1.00000024, y: 1, z: .999999881}
+      transformModified: 1
+    - name: LowerLeg_R
+      position: {x: -.0930207223, y: 5.66244118e-09, z: -1.34110445e-09}
+      rotation: {x: -.0026708662, y: -.0421859398, z: -.0312570818, w: .998617172}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: Foot_R
+      position: {x: -.0866599381, y: 7.52508633e-09, z: 3.87430177e-09}
+      rotation: {x: .328483999, y: .59398824, z: .287765205, w: .675623834}
+      scale: {x: .999999881, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: Toe_R
+      position: {x: -.0194575824, y: 4.63798644e-09, z: 5.44664536e-10}
+      rotation: {x: .00554890092, y: .0429135077, z: .00753951073, w: .999034941}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Cube_006
+      position: {x: -.000294556638, y: .000779975555, z: -.0014027023}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: .907055616, y: .907055616, z: .907055616}
+      transformModified: 1
+    armTwist: .500999987
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 2ab0893f5bba9b243b65e309e78089d0,
+    type: 3}
+  animationType: 3
+  additionalBone: 0
+  userData: 

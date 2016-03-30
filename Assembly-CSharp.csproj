@@ -49,6 +49,10 @@
      <Compile Include="Assets\Head Look Controller\Scripts\HeadLookController.cs" />
      <Compile Include="Assets\Head Look Controller\Scripts\HelpText.cs" />
      <Compile Include="Assets\Head Look Controller\Scripts\OrbitCamera.cs" />
+     <Compile Include="Assets\MecanimRagdollAnimBlender\Scripts\BodyPhysicsController.cs" />
+     <Compile Include="Assets\MecanimRagdollAnimBlender\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\MecanimRagdollAnimBlender\Scripts\PhysicsBodyPart.cs" />
+     <Compile Include="Assets\MecanimRagdollAnimBlender\Scripts\TestPhysMover.cs" />
      <Compile Include="Assets\OVR\Moonlight\Scripts\OVRDebugHeadController.cs" />
      <Compile Include="Assets\OVR\Moonlight\Scripts\OVROverlay.cs" />
      <Compile Include="Assets\OVR\Moonlight\Scripts\OVRPlatformMenu.cs" />
@@ -99,6 +103,7 @@
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
      <None Include="Assets\OVR\Moonlight\Resources\Unlit Transparent Color.shader" />
+     <None Include="Assets\MecanimRagdollAnimBlender\Readme.txt" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
