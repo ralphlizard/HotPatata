@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Head Look Controller/Head Look Test.unity
+- path: Assets/network.unity
   isLoaded: 1
   isActive: 1
