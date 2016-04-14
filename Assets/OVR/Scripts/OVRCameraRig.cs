@@ -89,6 +89,7 @@ public class OVRCameraRig : NetworkBehaviour
 			return;
 		if (!isLocalPlayer)
 		{
+			print("checked");
 			this.enabled = false;
 		}
 		UpdateAnchors();

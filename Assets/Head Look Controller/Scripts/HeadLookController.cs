@@ -35,6 +35,9 @@ public class HeadLookController : MonoBehaviour {
 	public Vector3 headLookVector = Vector3.forward;
 	public Vector3 headUpVector = Vector3.up;
 	public Vector3 target = Vector3.zero;
+	// must be localRotation
+	public float yRot;
+	//
 	public float effect = 1;
 	public bool overrideAnimation = false;
 	
@@ -158,7 +161,6 @@ public class HeadLookController : MonoBehaviour {
 			vAngle = Mathf.Clamp(vAngle, -segment.maxVerAngle, segment.maxVerAngle);
 
 			deltaH -= hAngle;
-			print(deltaH);
 
 			///////////
 			/// Body turn
@@ -207,6 +209,10 @@ public class HeadLookController : MonoBehaviour {
 				t.rotation = dividedRotation * t.rotation;
 				t = t.parent;
 			}
+			Vector3 curRot = segment.firstTransform.localRotation.eulerAngles;
+			curRot -= new Vector3(0,yRot,0);
+			//print(segment.firstTransform.localRotation.eulerAngles + "   " + curRot);
+			segment.firstTransform.localRotation = Quaternion.Euler(curRot.x, curRot.y, curRot.z);
 		}
 		
 		// Handle non affected joints
@@ -226,6 +232,7 @@ public class HeadLookController : MonoBehaviour {
 				newJointDirection, combinedJointDirection
 			) * nonAffectedJoints[i].joint.rotation;
 		}
+
 	}
 	
 	// The angle between dirA and dirB around axis
