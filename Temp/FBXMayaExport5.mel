@@ -1,8 +1,8 @@
 print "Starting maya loading and fbx conversion \n";
 	
-if (`file -q -exists "/Users/ralph/Documents/github/HotPatata/Assets/Models/balloon_shatter.mb"`)
+if (`file -q -exists "/Users/ralph/Documents/github/HotPatata/Assets/Models/03_28 slug breathing bake (1).ma"`)
 {		
-	file -o "/Users/ralph/Documents/github/HotPatata/Assets/Models/balloon_shatter.mb";
+	file -o "/Users/ralph/Documents/github/HotPatata/Assets/Models/03_28 slug breathing bake (1).ma";
 	FBXExportEmbeddedTextures -v false;
 	// FBXExportHardEdges -v true;
 	FBXExportApplyConstantKeyReducer -v false;
