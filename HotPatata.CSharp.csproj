@@ -16,7 +16,7 @@
     <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
-    <UnityVersion>5.3.4f1</UnityVersion>
+    <UnityVersion>5.3.4p1</UnityVersion>
     <RootNamespace></RootNamespace>
     <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
   </PropertyGroup>
@@ -114,6 +114,7 @@
     <Compile Include="Assets\Scripts\GazeAware.cs" />
     <Compile Include="Assets\Scripts\GazeController.cs" />
     <Compile Include="Assets\Scripts\GazeObjectTest.cs" />
+    <Compile Include="Assets\Scripts\Heart.cs" />
     <Compile Include="Assets\Scripts\Note.cs" />
     <Compile Include="Assets\Scripts\Pineapple.cs" />
     <Compile Include="Assets\Scripts\PineappleText.cs" />
