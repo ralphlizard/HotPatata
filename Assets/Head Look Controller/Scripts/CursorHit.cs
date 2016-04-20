@@ -9,5 +9,6 @@ public class CursorHit : MonoBehaviour {
 	// Update is called once per frame
 	void LateUpdate () {		
 		headLook.target = transform.position;
+		headLook.yRot = transform.rotation.eulerAngles.z;
 	}
 }

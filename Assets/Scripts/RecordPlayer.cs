@@ -6,20 +6,17 @@ public class RecordPlayer : MonoBehaviour {
 	public float activeBuffer = 0; //length of time before object activates
 	public float volumeAmpStep = 1; 
 	
-	Animator anim;
 	GazeController gazeController;
 	float lookedAtDuration;
 	float startLookedAt;
 	float prevLookTime;
 	bool lookedAt;
-	SkinnedMeshRenderer skinnedMeshRenderer;
-	AudioSource music;
 	public bool displayText;
+	AudioSource music;
 
 	// Use this for initialization
 	void Start () {
 		gazeController = GameObject.FindGameObjectWithTag("Player").GetComponent<GazeController>();
-		anim = GetComponentInChildren<Animator> ();
 		music = GetComponent<AudioSource>();
 	}
 	
@@ -72,7 +69,6 @@ public class RecordPlayer : MonoBehaviour {
 		{
 			if (gazeController.solved == 3)
 				gazeController.solved++;
-			displayText = true;
 		}
 	}
 }

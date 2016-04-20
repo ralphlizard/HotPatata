@@ -5,6 +5,11 @@ using System.Collections;
 public class GazeController : NetworkBehaviour {
 
 	public Camera mainCamera;
+	public GameObject headedSlug;
+	public GameObject headlessSlug;
+	public GameObject eye_L;
+	public GameObject eye_R;
+	public GameObject heart;
 	private GameObject gazeTarget;
 	private bool activeExists;
 	private RaycastHit hit;
@@ -14,7 +19,15 @@ public class GazeController : NetworkBehaviour {
 	// Use this for initialization
 	void Start () {
 		if (isLocalPlayer)
+		{
+			eye_L.SetActive(false);
+			eye_R.SetActive(false);
+			headedSlug.SetActive(false);
+			heart.SetActive(false);
+			headlessSlug.SetActive(true);
 			mainCamera.enabled = true;
+			this.gameObject.tag = "Player";
+		}
 	}
 	
 	// Update is called once per frame

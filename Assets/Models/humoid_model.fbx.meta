@@ -80,7 +80,7 @@ ModelImporter:
     4300000: L_eye_geo
     4300002: body_geo
     4300004: R_eye_geo
-    7400000: Take 001
+    7400000: human.tpose
     9500000: //RootNode
     13700000: body_geo
     13700002: L_eye_geo
@@ -105,7 +105,107 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: human.tpose
+      takeName: Take 001
+      firstFrame: -5
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body_geo
+        weight: 1
+      - path: L_eye_geo
+        weight: 1
+      - path: R_eye_geo
+        weight: 1
+      - path: spine_root
+        weight: 1
+      - path: spine_root/belly_b
+        weight: 1
+      - path: spine_root/belly_b/belly_t
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/neck
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/neck/head
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/neck/head/head_tip
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L/arm_L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L/arm_L/elbow_L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L/arm_L/elbow_L/hand_L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L/arm_L/elbow_L/hand_L/finger_root_L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L/arm_L/elbow_L/hand_L/finger_root_L/finger__L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R/elbow_R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R/elbow_R/hand_R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R/elbow_R/hand_R/finger_root_R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R/elbow_R/hand_R/finger_root_R/finger__R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R/elbow_R/hand_R/finger_root_R/finger__R/finger_tip
+        weight: 1
+      - path: spine_root/hip_L
+        weight: 1
+      - path: spine_root/hip_L/leg_L
+        weight: 1
+      - path: spine_root/hip_L/leg_L/ankle_L
+        weight: 1
+      - path: spine_root/hip_L/leg_L/ankle_L/foot_L
+        weight: 1
+      - path: spine_root/hip_L/leg_L/ankle_L/foot_L/toe_L
+        weight: 1
+      - path: spine_root/hip_L/leg_L/ankle_L/foot_L/toe_skel_L
+        weight: 1
+      - path: spine_root/hip_R
+        weight: 1
+      - path: spine_root/hip_R/leg_R
+        weight: 1
+      - path: spine_root/hip_R/leg_R/ankle_R
+        weight: 1
+      - path: spine_root/hip_R/leg_R/ankle_R/foot_R
+        weight: 1
+      - path: spine_root/hip_R/leg_R/ankle_R/foot_R/toe_R
+        weight: 1
+      - path: spine_root/hip_R/leg_R/ankle_R/foot_R/toe_skel_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
