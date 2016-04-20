@@ -91,6 +91,7 @@
      <Compile Include="Assets\Scripts\GazeController.cs" />
      <Compile Include="Assets\Scripts\GazeObjectTest.cs" />
      <Compile Include="Assets\Scripts\Heart.cs" />
+     <Compile Include="Assets\Scripts\Human.cs" />
      <Compile Include="Assets\Scripts\Note.cs" />
      <Compile Include="Assets\Scripts\Pineapple.cs" />
      <Compile Include="Assets\Scripts\PineappleText.cs" />
