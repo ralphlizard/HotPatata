@@ -92,7 +92,7 @@ ModelImporter:
     4300000: L_eye_geo
     4300002: body_geo
     4300004: R_eye_geo
-    7400000: Take 001
+    7400000: human.walk
     9500000: //RootNode
     13700000: body_geo
     13700002: L_eye_geo
@@ -119,7 +119,7 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: human.walk
       takeName: Take 001
       firstFrame: 1
       lastFrame: 33

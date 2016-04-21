@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Heart : MonoBehaviour {
+public class RecordPlayer : MonoBehaviour {
 	public float lookBuffer = 0.5f; //length of time that needs to pass until object decides it's not being looked at
 	public float activeBuffer = 0; //length of time before object activates
 	public float volumeAmpStep = 1; 
@@ -11,6 +11,7 @@ public class Heart : MonoBehaviour {
 	float startLookedAt;
 	float prevLookTime;
 	bool lookedAt;
+	public bool displayText;
 	AudioSource music;
 
 	// Use this for initialization

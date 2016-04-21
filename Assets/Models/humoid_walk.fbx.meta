@@ -1,0 +1,340 @@
+fileFormatVersion: 2
+guid: 1fe680219bfdd42fd8c657ae31412067
+timeCreated: 1461195657
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ankle_L
+    100002: ankle_R
+    100004: ARM_L
+    100006: arm_L
+    100008: ARM_R
+    100010: arm_R
+    100012: belly_b
+    100014: belly_t
+    100016: body_geo
+    100018: CLAVICLE_L
+    100020: CLAVICLE_R
+    100022: ELBOW_L
+    100024: elbow_L
+    100026: ELBOW_R
+    100028: elbow_R
+    100030: finger__L
+    100032: finger__R
+    100034: finger_root_L
+    100036: finger_root_R
+    100038: finger_tip
+    100040: finger_tip 1
+    100042: foot_L
+    100044: foot_R
+    100046: group1
+    100048: HAND_L
+    100050: hand_L
+    100052: HAND_R
+    100054: hand_R
+    100056: HEAD
+    100058: head
+    100060: head_tip
+    100062: hip_L
+    100064: hip_R
+    100066: HIPS
+    100068: //RootNode
+    100070: joint1
+    100072: joint2
+    100074: joint3
+    100076: L_eye_geo
+    100078: leg_L
+    100080: leg_R
+    100082: MASTER
+    100084: NECK
+    100086: neck
+    100088: neck_root
+    100090: R_eye_geo
+    100092: shoulder_L
+    100094: shoulder_R
+    100096: SPINE_1
+    100098: SPINE_2
+    100100: SPINE_3
+    100102: spine_root
+    100104: toe_L
+    100106: toe_R
+    100108: toe_skel_L
+    100110: toe_skel_R
+    100112: toe_tip_L
+    100114: toe_tip_R
+    400000: ankle_L
+    400002: ankle_R
+    400004: ARM_L
+    400006: arm_L
+    400008: ARM_R
+    400010: arm_R
+    400012: belly_b
+    400014: belly_t
+    400016: body_geo
+    400018: CLAVICLE_L
+    400020: CLAVICLE_R
+    400022: ELBOW_L
+    400024: elbow_L
+    400026: ELBOW_R
+    400028: elbow_R
+    400030: finger__L
+    400032: finger__R
+    400034: finger_root_L
+    400036: finger_root_R
+    400038: finger_tip
+    400040: finger_tip 1
+    400042: foot_L
+    400044: foot_R
+    400046: group1
+    400048: HAND_L
+    400050: hand_L
+    400052: HAND_R
+    400054: hand_R
+    400056: HEAD
+    400058: head
+    400060: head_tip
+    400062: hip_L
+    400064: hip_R
+    400066: HIPS
+    400068: //RootNode
+    400070: joint1
+    400072: joint2
+    400074: joint3
+    400076: L_eye_geo
+    400078: leg_L
+    400080: leg_R
+    400082: MASTER
+    400084: NECK
+    400086: neck
+    400088: neck_root
+    400090: R_eye_geo
+    400092: shoulder_L
+    400094: shoulder_R
+    400096: SPINE_1
+    400098: SPINE_2
+    400100: SPINE_3
+    400102: spine_root
+    400104: toe_L
+    400106: toe_R
+    400108: toe_skel_L
+    400110: toe_skel_R
+    400112: toe_tip_L
+    400114: toe_tip_R
+    4300000: L_eye_geo
+    4300002: body_geo
+    4300004: R_eye_geo
+    7400000: human.walk
+    9500000: //RootNode
+    13700000: body_geo
+    13700002: L_eye_geo
+    13700004: R_eye_geo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: human.walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body_geo
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/MASTER
+        weight: 1
+      - path: group1/MASTER/HIPS
+        weight: 1
+      - path: group1/MASTER/HIPS/SPINE_1
+        weight: 1
+      - path: group1/MASTER/HIPS/SPINE_1/SPINE_2
+        weight: 1
+      - path: group1/MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3
+        weight: 1
+      - path: group1/MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/CLAVICLE_L
+        weight: 1
+      - path: group1/MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/CLAVICLE_L/ARM_L
+        weight: 1
+      - path: group1/MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/CLAVICLE_L/ARM_L/ELBOW_L
+        weight: 1
+      - path: group1/MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/CLAVICLE_L/ARM_L/ELBOW_L/HAND_L
+        weight: 1
+      - path: group1/MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/CLAVICLE_R
+        weight: 1
+      - path: group1/MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/CLAVICLE_R/ARM_R
+        weight: 1
+      - path: group1/MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/CLAVICLE_R/ARM_R/ELBOW_R
+        weight: 1
+      - path: group1/MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/CLAVICLE_R/ARM_R/ELBOW_R/HAND_R
+        weight: 1
+      - path: group1/MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/NECK
+        weight: 1
+      - path: group1/MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/NECK/HEAD
+        weight: 1
+      - path: L_eye_geo
+        weight: 1
+      - path: R_eye_geo
+        weight: 1
+      - path: spine_root
+        weight: 1
+      - path: spine_root/belly_b
+        weight: 1
+      - path: spine_root/belly_b/belly_t
+        weight: 1
+      - path: spine_root/belly_b/belly_t/joint2
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/joint3
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/neck
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/neck/head
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/neck/head/head_tip
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L/arm_L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L/arm_L/elbow_L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L/arm_L/elbow_L/hand_L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L/arm_L/elbow_L/hand_L/finger_root_L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L/arm_L/elbow_L/hand_L/finger_root_L/finger__L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L/arm_L/elbow_L/hand_L/finger_root_L/finger__L/finger_tip
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R/elbow_R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R/elbow_R/hand_R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R/elbow_R/hand_R/finger_root_R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R/elbow_R/hand_R/finger_root_R/finger__R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R/elbow_R/hand_R/finger_root_R/finger__R/finger_tip
+          1
+        weight: 1
+      - path: spine_root/belly_b/joint1
+        weight: 1
+      - path: spine_root/hip_L
+        weight: 1
+      - path: spine_root/hip_L/leg_L
+        weight: 1
+      - path: spine_root/hip_L/leg_L/ankle_L
+        weight: 1
+      - path: spine_root/hip_L/leg_L/ankle_L/foot_L
+        weight: 1
+      - path: spine_root/hip_L/leg_L/ankle_L/foot_L/toe_L
+        weight: 1
+      - path: spine_root/hip_L/leg_L/ankle_L/foot_L/toe_L/toe_tip_L
+        weight: 1
+      - path: spine_root/hip_L/leg_L/ankle_L/foot_L/toe_skel_L
+        weight: 1
+      - path: spine_root/hip_R
+        weight: 1
+      - path: spine_root/hip_R/leg_R
+        weight: 1
+      - path: spine_root/hip_R/leg_R/ankle_R
+        weight: 1
+      - path: spine_root/hip_R/leg_R/ankle_R/foot_R
+        weight: 1
+      - path: spine_root/hip_R/leg_R/ankle_R/foot_R/toe_R
+        weight: 1
+      - path: spine_root/hip_R/leg_R/ankle_R/foot_R/toe_R/toe_tip_R
+        weight: 1
+      - path: spine_root/hip_R/leg_R/ankle_R/foot_R/toe_skel_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
