@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Child.cs" />
      <Compile Include="Assets\Head Look Controller\Scripts\CursorHit.cs" />
      <Compile Include="Assets\Head Look Controller\Scripts\HeadLookController.cs" />
      <Compile Include="Assets\Head Look Controller\Scripts\HelpText.cs" />
@@ -92,6 +93,7 @@
      <Compile Include="Assets\Scripts\GazeObjectTest.cs" />
      <Compile Include="Assets\Scripts\Heart.cs" />
      <Compile Include="Assets\Scripts\Human.cs" />
+     <Compile Include="Assets\Scripts\Human1.cs" />
      <Compile Include="Assets\Scripts\Note.cs" />
      <Compile Include="Assets\Scripts\Pineapple.cs" />
      <Compile Include="Assets\Scripts\PineappleText.cs" />
