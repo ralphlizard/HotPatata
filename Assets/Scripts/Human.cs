@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Human : MonoBehaviour {
 	public Transform[] kids;
+	public bool havePoked;
 	int curIndex = 0;
 	Transform curKid;
 	float minDistance = 0;
@@ -44,15 +45,22 @@ public class Human : MonoBehaviour {
 				agent.Stop();
 				anim.SetBool("isWalking", false);
 				if (anim.GetCurrentAnimatorStateInfo(0).IsName("human.walk") &&
-					!anim.GetCurrentAnimatorStateInfo(0).IsName("human.idleStand")) //check if walking is done
+					!anim.GetCurrentAnimatorStateInfo(0).IsName("human.idleStand") &&
+					!havePoked) //check if walking is done
 				{
 					anim.SetBool("isPoking", true); //poke the kid
 				}
-				if (anim.GetCurrentAnimatorStateInfo(0).IsName("human.poke")) //check if poking is done
+				if (anim.GetCurrentAnimatorStateInfo(0).IsName("human.poke")) //check if poking is in progress
 				{
-					curIndex++; //pursue next kid
+					havePoked = true;
 					anim.SetBool("isPoking", false);
 					anim.SetBool("isIdle", true); //stand idle
+				}
+				else if (havePoked) //check if poking is done
+				{
+					havePoked = false;
+					curIndex++; //pursue next kid
+					curKid.GetComponent<Child>().isScreaming = true;
 				}
 			}
 		}

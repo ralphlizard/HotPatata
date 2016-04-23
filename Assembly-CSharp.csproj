@@ -84,6 +84,7 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
      <Compile Include="Assets\PlayerNetworking.cs" />
      <Compile Include="Assets\Scripts\Balloon.cs" />
+     <Compile Include="Assets\Scripts\BalloonPop.cs" />
      <Compile Include="Assets\Scripts\BalloonText.cs" />
      <Compile Include="Assets\Scripts\Butterfly.cs" />
      <Compile Include="Assets\Scripts\ClientRPCDemo.cs" />
@@ -99,6 +100,7 @@
      <Compile Include="Assets\Scripts\PineappleText.cs" />
      <Compile Include="Assets\Scripts\RecordPlayer.cs" />
      <Compile Include="Assets\Scripts\RecordText.cs" />
+     <Compile Include="Assets\Scripts\StayUpright.cs" />
      <Compile Include="Assets\camerLock.cs" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\Shader\Ramp.shader" />

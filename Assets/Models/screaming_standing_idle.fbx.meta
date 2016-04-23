@@ -72,7 +72,7 @@ ModelImporter:
     400062: skele_grp
     400064: spine
     4300000: screamer
-    7400000: Take 001
+    7400000: child.idleStand
     9500000: //RootNode
     13700000: screamer 1
   materials:
@@ -89,13 +89,107 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: child.idleStand
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: blendshape_grp
+        weight: 1
+      - path: cntrls_grp
+        weight: 1
+      - path: cntrls_grp/MASTER
+        weight: 1
+      - path: cntrls_grp/MASTER/ROOT
+        weight: 1
+      - path: cntrls_grp/MASTER/ROOT/CHEST
+        weight: 1
+      - path: cntrls_grp/MASTER/ROOT/CHEST/NECK
+        weight: 1
+      - path: geo_grp
+        weight: 1
+      - path: geo_grp/screamer 1
+        weight: 1
+      - path: skele_grp
+        weight: 1
+      - path: skele_grp/root
+        weight: 1
+      - path: skele_grp/root/hip_L
+        weight: 1
+      - path: skele_grp/root/hip_L/leg_L
+        weight: 1
+      - path: skele_grp/root/hip_L/leg_L/legTip_L
+        weight: 1
+      - path: skele_grp/root/hip_R
+        weight: 1
+      - path: skele_grp/root/hip_R/leg_R
+        weight: 1
+      - path: skele_grp/root/hip_R/leg_R/legTip_R
+        weight: 1
+      - path: skele_grp/root/spine
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L/arm3_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L/arm3_L/arm4_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L/arm3_L/arm4_L/arm5_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L/arm3_L/arm4_L/arm5_L/armTip_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R/arm2_R
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R/arm2_R/arm3_R
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R/arm2_R/arm3_R/arm4_R
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R/arm2_R/arm3_R/arm4_R/arm5_R
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R/arm2_R/arm3_R/arm4_R/arm5_R/armTip_R
+        weight: 1
+      - path: skele_grp/root/spine/head
+        weight: 1
+      - path: skele_grp/root/spine/head/headtip
+        weight: 1
+      - path: skele_grp/root/spine/head/headtip/nose_tip
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -121,8 +215,309 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    human: []
-    skeleton: []
+    human:
+    - boneName: root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hip_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hip_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: leg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: legTip_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: legTip_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm1_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm1_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm2_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm2_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm4_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm3_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: armTip_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: arm4_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: screaming_standing_idle(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: blendshape_grp
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: cntrls_grp
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: MASTER
+      position: {x: -0, y: -0.019872528, z: -0.00027503}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ROOT
+      position: {x: -0, y: 0.038686756, z: -0.003642701}
+      rotation: {x: -0.09176887, y: 0, z: -0, w: 0.99578035}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: CHEST
+      position: {x: -0, y: 0.019913249, z: 0.000485689}
+      rotation: {x: 0.14285344, y: -0, z: -0, w: 0.9897439}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: NECK
+      position: {x: -1.2325951e-33, y: 0.01894187, z: 0.0011332743}
+      rotation: {x: 0.04831077, y: -0.062305596, z: 0.03324653, w: 0.99633265}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: geo_grp
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: screamer 1
+      position: {x: -0, y: 0.05090763, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 4.4575424, y: 4.4575424, z: 4.4575424}
+      transformModified: 1
+    - name: skele_grp
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: root
+      position: {x: -0, y: 0.038332384, z: -0.0039177313}
+      rotation: {x: -0.49386665, y: 0.50605905, z: -0.49386665, w: 0.5060591}
+      scale: {x: 1, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: spine
+      position: {x: -0.01991917, y: 7.355227e-18, z: 2.2114721e-18}
+      rotation: {x: 0.000000029802322, y: 0.000000029802322, z: 0.01768522, w: 0.99984366}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.9999997}
+      transformModified: 1
+    - name: head
+      position: {x: -0.018975742, y: -1.1934897e-17, z: 2.1799173e-18}
+      rotation: {x: 0, y: -0.000000029802319, z: -0.0034135575, w: 0.99999416}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.99999994}
+      transformModified: 1
+    - name: headtip
+      position: {x: -0.024480632, y: 5.5511148e-18, z: 2.794361e-18}
+      rotation: {x: -0.000000029802319, y: -3.4924594e-10, z: 0.69071615, w: 0.72312605}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: nose_tip
+      position: {x: -0.022827957, y: -8.881784e-18, z: 2.5778596e-18}
+      rotation: {x: -0.0025074065, y: -0.70710236, z: -0.0025074636, w: 0.70710236}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: arm1_L
+      position: {x: -0.00547557, y: -0.0031105813, z: -0.014045864}
+      rotation: {x: 0.562537, y: -0.42842987, z: 0.39406916, w: 0.58711976}
+      scale: {x: 1, y: 1.0000002, z: 1}
+      transformModified: 1
+    - name: arm2_L
+      position: {x: -0.008120631, y: -5.551115e-19, z: 0}
+      rotation: {x: 0.000000008177936, y: -0.00000006689303, z: 0.1137966, w: 0.99350405}
+      scale: {x: 1.0000004, y: 1, z: 1}
+      transformModified: 1
+    - name: arm3_L
+      position: {x: -0.008635047, y: -4.718448e-18, z: 0}
+      rotation: {x: 0.00000010164857, y: -0.000000037893674, z: 0.1623529, w: 0.98673284}
+      scale: {x: 0.9999997, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: arm4_L
+      position: {x: -0.011033986, y: 2.7755575e-19, z: 0}
+      rotation: {x: -0.00000006773035, y: 0.00000017955199, z: -0.08504454, w: 0.99637717}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: arm5_L
+      position: {x: -0.009818233, y: 7.216449e-18, z: 0}
+      rotation: {x: -0.000000014277492, y: 0.000000082688196, z: 0.01340681, w: 0.9999101}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+      transformModified: 1
+    - name: armTip_L
+      position: {x: -0.008396896, y: 1.7763568e-17, z: 0}
+      rotation: {x: 9.645306e-10, y: -0.00000005959682, z: -0.18330544, w: 0.983056}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1.0000001}
+      transformModified: 1
+    - name: arm1_R
+      position: {x: -0.005475539, y: -0.0031105832, z: 0.0140459}
+      rotation: {x: 0.4292963, y: 0.5618761, z: 0.58651173, w: -0.3949734}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+      transformModified: 1
+    - name: arm2_R
+      position: {x: 0.008120629, y: 0.000000016602588, z: -3.5203511e-12}
+      rotation: {x: 0.0000000563613, y: 0.000000026285194, z: 0.1425901, w: 0.9897818}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+      transformModified: 1
+    - name: arm3_R
+      position: {x: 0.008635059, y: -0.000000028616078, z: 3.555161e-11}
+      rotation: {x: -0.000000034519942, y: 0.000000015745856, z: 0.055583376, w: 0.9984541}
+      scale: {x: 0.99999976, y: 0.9999995, z: 0.99999976}
+      transformModified: 1
+    - name: arm4_R
+      position: {x: 0.011033969, y: 0.000000008935521, z: -2.126247e-11}
+      rotation: {x: -0.0000000060867626, y: -0.000000098578006, z: 0.0824545, w: 0.99659485}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000002}
+      transformModified: 1
+    - name: arm5_R
+      position: {x: 0.009818185, y: -0.00000005680935, z: -1.1946186e-10}
+      rotation: {x: 0.00000011733875, y: -0.00000007179632, z: -0.0019522754, w: 0.9999981}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999998}
+      transformModified: 1
+    - name: armTip_R
+      position: {x: 0.008396869, y: 0.00000004080237, z: -8.454135e-11}
+      rotation: {x: 0.00000008568594, y: -0.000000036610338, z: -0.18330565, w: 0.983056}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: hip_L
+      position: {x: 0.0033291315, y: -0.0038767483, z: -0.011392885}
+      rotation: {x: 0.000000029802322, y: 0.000000029802322, z: 0.99961776, w: 0.02764818}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.9999999}
+      transformModified: 1
+    - name: leg_L
+      position: {x: -0.015711453, y: -2.7061685e-18, z: 4.4681573e-34}
+      rotation: {x: -0.9994557, y: -0.032989733, z: -0.00000005960463, w: 0.000000044703473}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+      transformModified: 1
+    - name: legTip_L
+      position: {x: -0.01846754, y: -9.020562e-18, z: -2.0280657e-19}
+      rotation: {x: 0.4911552, y: 0.50869095, z: -0.49115518, w: 0.50869113}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.9999999}
+      transformModified: 1
+    - name: hip_R
+      position: {x: 0.00332912, y: -0.0038767478, z: 0.0113929}
+      rotation: {x: -0.00004646182, y: -0.0000003874302, z: 0.02764821, w: -0.9996178}
+      scale: {x: 0.9999999, y: 1, z: 1}
+      transformModified: 1
+    - name: leg_R
+      position: {x: 0.015711509, y: 0.0000000017208266, z: -6.661338e-18}
+      rotation: {x: -0.99945575, y: -0.032989617, z: 0.000000029802319, w: -0.000000059604638}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999976}
+      transformModified: 1
+    - name: legTip_R
+      position: {x: 0.018467497, y: -0.0000000011396496, z: 6.661338e-18}
+      rotation: {x: 0.49115527, y: 0.508691, z: -0.49115527, w: 0.5086909}
+      scale: {x: 1.0000002, y: 1, z: 1}
+      transformModified: 1
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -133,7 +528,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
