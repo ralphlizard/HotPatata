@@ -19,7 +19,7 @@ public class Heart : MonoBehaviour {
 		camDir = camera.transform.forward;
 		targetDir = transform.position - camera.transform.position;
 		music.volume = map(Vector3.Angle(camDir, targetDir), 180, 0, 0, 1);
-		print (music.volume);
+//		print (music.volume);
 	}	
 
 	float map(float s, float a1, float a2, float b1, float b2)

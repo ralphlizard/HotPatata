@@ -150,7 +150,9 @@ ModelImporter:
     400140: skele_grp
     400142: spine
     4300000: screamer
-    7400000: Take 001
+    7400000: child.idleSit1
+    7400002: child.idleSit2
+    7400004: child.scream
     9500000: //RootNode
     13700000: screamer 1
   materials:
@@ -164,7 +166,11 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'arm3_L' is inbetween humanoid transforms and
+      has rotation animation that will be discarded.\n\t'arm5_L' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 3
@@ -173,7 +179,523 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: child.idleSit1
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: blendshape_grp
+        weight: 0
+      - path: cntrls_grp
+        weight: 0
+      - path: cntrls_grp/MASTER
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/FOOT_L
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/FOOT_L/ikHandle_foot_l
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/FOOT_R
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/FOOT_R/ikHandle_footr
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/ikHandle_ARM_L
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/ikHandle_ARM_R
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/KNEE_L
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/KNEE_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L/ARM5_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L/ARM5_L/ARM6_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L/ARM5_L/ARM6_L/cluster6Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L/ARM5_L/cluster5Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L/cluster4Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/cluster3Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/cluster2Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/cluster1Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R/ARM5_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R/ARM5_R/ARM6_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R/ARM5_R/ARM6_R/cluster7Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R/ARM5_R/cluster8Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R/cluster9Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/cluster10Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/cluster11Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/cluster12Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/NECK
+        weight: 0
+      - path: EXTRA
+        weight: 0
+      - path: EXTRA/ARM_CURVE_L
+        weight: 0
+      - path: EXTRA/ARM_CURVE_R
+        weight: 0
+      - path: geo_grp
+        weight: 0
+      - path: geo_grp/screamer 1
+        weight: 0
+      - path: skele_grp
+        weight: 1
+      - path: skele_grp/root
+        weight: 1
+      - path: skele_grp/root/hip_L
+        weight: 1
+      - path: skele_grp/root/hip_L/leg_L
+        weight: 1
+      - path: skele_grp/root/hip_L/leg_L/legTip_L
+        weight: 1
+      - path: skele_grp/root/hip_R
+        weight: 1
+      - path: skele_grp/root/hip_R/leg_R
+        weight: 1
+      - path: skele_grp/root/hip_R/leg_R/legTip_R
+        weight: 1
+      - path: skele_grp/root/spine
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L/arm3_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L/arm3_L/arm4_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L/arm3_L/arm4_L/arm5_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L/arm3_L/arm4_L/arm5_L/armTip_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R/arm2_R
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R/arm2_R/arm3_R
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R/arm2_R/arm3_R/arm4_R
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R/arm2_R/arm3_R/arm4_R/arm5_R
+        weight: 0
+      - path: skele_grp/root/spine/arm1_R/arm2_R/arm3_R/arm4_R/arm5_R/armTip_R
+        weight: 0
+      - path: skele_grp/root/spine/head
+        weight: 1
+      - path: skele_grp/root/spine/head/headtip
+        weight: 0
+      - path: skele_grp/root/spine/head/headtip/nose_tip
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
+    - serializedVersion: 16
+      name: child.idleSit2
+      takeName: Take 001
+      firstFrame: 41
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: blendshape_grp
+        weight: 0
+      - path: cntrls_grp
+        weight: 0
+      - path: cntrls_grp/MASTER
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/FOOT_L
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/FOOT_L/ikHandle_foot_l
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/FOOT_R
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/FOOT_R/ikHandle_footr
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/ikHandle_ARM_L
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/ikHandle_ARM_R
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/KNEE_L
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/KNEE_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L/ARM5_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L/ARM5_L/ARM6_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L/ARM5_L/ARM6_L/cluster6Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L/ARM5_L/cluster5Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L/cluster4Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/cluster3Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/cluster2Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/cluster1Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R/ARM5_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R/ARM5_R/ARM6_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R/ARM5_R/ARM6_R/cluster7Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R/ARM5_R/cluster8Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R/cluster9Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/cluster10Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/cluster11Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/cluster12Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/NECK
+        weight: 0
+      - path: EXTRA
+        weight: 0
+      - path: EXTRA/ARM_CURVE_L
+        weight: 0
+      - path: EXTRA/ARM_CURVE_R
+        weight: 0
+      - path: geo_grp
+        weight: 0
+      - path: geo_grp/screamer 1
+        weight: 0
+      - path: skele_grp
+        weight: 1
+      - path: skele_grp/root
+        weight: 1
+      - path: skele_grp/root/hip_L
+        weight: 1
+      - path: skele_grp/root/hip_L/leg_L
+        weight: 1
+      - path: skele_grp/root/hip_L/leg_L/legTip_L
+        weight: 1
+      - path: skele_grp/root/hip_R
+        weight: 1
+      - path: skele_grp/root/hip_R/leg_R
+        weight: 1
+      - path: skele_grp/root/hip_R/leg_R/legTip_R
+        weight: 1
+      - path: skele_grp/root/spine
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L/arm3_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L/arm3_L/arm4_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L/arm3_L/arm4_L/arm5_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L/arm3_L/arm4_L/arm5_L/armTip_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R/arm2_R
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R/arm2_R/arm3_R
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R/arm2_R/arm3_R/arm4_R
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R/arm2_R/arm3_R/arm4_R/arm5_R
+        weight: 0
+      - path: skele_grp/root/spine/arm1_R/arm2_R/arm3_R/arm4_R/arm5_R/armTip_R
+        weight: 0
+      - path: skele_grp/root/spine/head
+        weight: 1
+      - path: skele_grp/root/spine/head/headtip
+        weight: 0
+      - path: skele_grp/root/spine/head/headtip/nose_tip
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
+    - serializedVersion: 16
+      name: child.scream
+      takeName: Take 001
+      firstFrame: 101
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: blendshape_grp
+        weight: 0
+      - path: cntrls_grp
+        weight: 0
+      - path: cntrls_grp/MASTER
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/FOOT_L
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/FOOT_L/ikHandle_foot_l
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/FOOT_R
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/FOOT_R/ikHandle_footr
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/ikHandle_ARM_L
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/ikHandle_ARM_R
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/KNEE_L
+        weight: 0
+      - path: cntrls_grp/MASTER/IK_grp/KNEE_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L/ARM5_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L/ARM5_L/ARM6_L
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L/ARM5_L/ARM6_L/cluster6Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L/ARM5_L/cluster5Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/ARM4_L/cluster4Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/ARM3_L/cluster3Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/ARM2_L/cluster2Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_L_CNTRL/ARM1_L/cluster1Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R/ARM5_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R/ARM5_R/ARM6_R
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R/ARM5_R/ARM6_R/cluster7Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R/ARM5_R/cluster8Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/ARM4_R/cluster9Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/ARM3_R/cluster10Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/ARM2_R/cluster11Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/ARM_CNTRLS/ARM_R_CNTRL/ARM1_R/cluster12Handle
+        weight: 0
+      - path: cntrls_grp/MASTER/ROOT/CHEST/NECK
+        weight: 0
+      - path: EXTRA
+        weight: 0
+      - path: EXTRA/ARM_CURVE_L
+        weight: 0
+      - path: EXTRA/ARM_CURVE_R
+        weight: 0
+      - path: geo_grp
+        weight: 0
+      - path: geo_grp/screamer 1
+        weight: 0
+      - path: skele_grp
+        weight: 1
+      - path: skele_grp/root
+        weight: 1
+      - path: skele_grp/root/hip_L
+        weight: 1
+      - path: skele_grp/root/hip_L/leg_L
+        weight: 1
+      - path: skele_grp/root/hip_L/leg_L/legTip_L
+        weight: 1
+      - path: skele_grp/root/hip_R
+        weight: 1
+      - path: skele_grp/root/hip_R/leg_R
+        weight: 1
+      - path: skele_grp/root/hip_R/leg_R/legTip_R
+        weight: 1
+      - path: skele_grp/root/spine
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L/arm3_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L/arm3_L/arm4_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L/arm3_L/arm4_L/arm5_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_L/arm2_L/arm3_L/arm4_L/arm5_L/armTip_L
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R/arm2_R
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R/arm2_R/arm3_R
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R/arm2_R/arm3_R/arm4_R
+        weight: 1
+      - path: skele_grp/root/spine/arm1_R/arm2_R/arm3_R/arm4_R/arm5_R
+        weight: 0
+      - path: skele_grp/root/spine/arm1_R/arm2_R/arm3_R/arm4_R/arm5_R/armTip_R
+        weight: 0
+      - path: skele_grp/root/spine/head
+        weight: 1
+      - path: skele_grp/root/spine/head/headtip
+        weight: 0
+      - path: skele_grp/root/spine/head/headtip/nose_tip
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
     isReadable: 1
   meshes:
     lODScreenPercentages: []

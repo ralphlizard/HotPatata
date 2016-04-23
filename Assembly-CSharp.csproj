@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Child.cs" />
      <Compile Include="Assets\Head Look Controller\Scripts\CursorHit.cs" />
      <Compile Include="Assets\Head Look Controller\Scripts\HeadLookController.cs" />
      <Compile Include="Assets\Head Look Controller\Scripts\HelpText.cs" />
@@ -83,6 +84,7 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
      <Compile Include="Assets\PlayerNetworking.cs" />
      <Compile Include="Assets\Scripts\Balloon.cs" />
+     <Compile Include="Assets\Scripts\BalloonPop.cs" />
      <Compile Include="Assets\Scripts\BalloonText.cs" />
      <Compile Include="Assets\Scripts\Butterfly.cs" />
      <Compile Include="Assets\Scripts\ClientRPCDemo.cs" />
@@ -92,11 +94,13 @@
      <Compile Include="Assets\Scripts\GazeObjectTest.cs" />
      <Compile Include="Assets\Scripts\Heart.cs" />
      <Compile Include="Assets\Scripts\Human.cs" />
+     <Compile Include="Assets\Scripts\Human1.cs" />
      <Compile Include="Assets\Scripts\Note.cs" />
      <Compile Include="Assets\Scripts\Pineapple.cs" />
      <Compile Include="Assets\Scripts\PineappleText.cs" />
      <Compile Include="Assets\Scripts\RecordPlayer.cs" />
      <Compile Include="Assets\Scripts\RecordText.cs" />
+     <Compile Include="Assets\Scripts\StayUpright.cs" />
      <Compile Include="Assets\camerLock.cs" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\Shader\Ramp.shader" />

@@ -1,0 +1,643 @@
+fileFormatVersion: 2
+guid: 1a2cb58ff7ea14f1c9cd0c8a07b16e20
+timeCreated: 1461374067
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: geo
+    100002: joint1
+    100004: joint10
+    100006: joint10 1
+    100008: joint10 2
+    100010: joint10 3
+    100012: joint10 4
+    100014: joint10 5
+    100016: joint10 6
+    100018: joint11
+    100020: joint11 1
+    100022: joint11 2
+    100024: joint11 3
+    100026: joint11 4
+    100028: joint11 5
+    100030: joint12
+    100032: joint13
+    100034: joint14
+    100036: joint15
+    100038: joint16
+    100040: joint17
+    100042: joint2
+    100044: joint2 1
+    100046: joint2 2
+    100048: joint2 3
+    100050: joint2 4
+    100052: joint2 5
+    100054: joint3
+    100056: joint3 1
+    100058: joint3 2
+    100060: joint3 3
+    100062: joint3 4
+    100064: joint3 5
+    100066: joint4
+    100068: joint4 1
+    100070: joint4 2
+    100072: joint4 3
+    100074: joint4 4
+    100076: joint4 5
+    100078: joint5
+    100080: joint5 1
+    100082: joint5 2
+    100084: joint5 3
+    100086: joint5 4
+    100088: joint5 5
+    100090: joint6
+    100092: joint6 1
+    100094: joint6 2
+    100096: joint6 3
+    100098: joint6 4
+    100100: joint6 5
+    100102: joint7
+    100104: joint7 1
+    100106: joint7 2
+    100108: joint7 3
+    100110: joint7 4
+    100112: joint7 5
+    100114: joint7 6
+    100116: joint8
+    100118: joint8 1
+    100120: joint8 2
+    100122: joint8 3
+    100124: joint8 4
+    100126: joint8 5
+    100128: joint8 6
+    100130: joint9
+    100132: joint9 1
+    100134: joint9 2
+    100136: joint9 3
+    100138: joint9 4
+    100140: joint9 5
+    100142: joint9 6
+    100144: skele_group
+    100146: //RootNode
+    100148: string1
+    400000: geo
+    400002: joint1
+    400004: joint10
+    400006: joint10 1
+    400008: joint10 2
+    400010: joint10 3
+    400012: joint10 4
+    400014: joint10 5
+    400016: joint10 6
+    400018: joint11
+    400020: joint11 1
+    400022: joint11 2
+    400024: joint11 3
+    400026: joint11 4
+    400028: joint11 5
+    400030: joint12
+    400032: joint13
+    400034: joint14
+    400036: joint15
+    400038: joint16
+    400040: joint17
+    400042: joint2
+    400044: joint2 1
+    400046: joint2 2
+    400048: joint2 3
+    400050: joint2 4
+    400052: joint2 5
+    400054: joint3
+    400056: joint3 1
+    400058: joint3 2
+    400060: joint3 3
+    400062: joint3 4
+    400064: joint3 5
+    400066: joint4
+    400068: joint4 1
+    400070: joint4 2
+    400072: joint4 3
+    400074: joint4 4
+    400076: joint4 5
+    400078: joint5
+    400080: joint5 1
+    400082: joint5 2
+    400084: joint5 3
+    400086: joint5 4
+    400088: joint5 5
+    400090: joint6
+    400092: joint6 1
+    400094: joint6 2
+    400096: joint6 3
+    400098: joint6 4
+    400100: joint6 5
+    400102: joint7
+    400104: joint7 1
+    400106: joint7 2
+    400108: joint7 3
+    400110: joint7 4
+    400112: joint7 5
+    400114: joint7 6
+    400116: joint8
+    400118: joint8 1
+    400120: joint8 2
+    400122: joint8 3
+    400124: joint8 4
+    400126: joint8 5
+    400128: joint8 6
+    400130: joint9
+    400132: joint9 1
+    400134: joint9 2
+    400136: joint9 3
+    400138: joint9 4
+    400140: joint9 5
+    400142: joint9 6
+    400144: skele_group
+    400146: //RootNode
+    400148: string1
+    4300000: string1
+    7400000: string.wiggle
+    9500000: //RootNode
+    13700000: string1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: string.wiggle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: geo
+        weight: 1
+      - path: geo/string1
+        weight: 1
+      - path: skele_group
+        weight: 1
+      - path: skele_group/joint1
+        weight: 1
+      - path: skele_group/joint1/joint2
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4/joint11 4
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4/joint11 4/joint16
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4/joint11 4/joint16/joint2 5
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4/joint11 4/joint16/joint2 5/joint3 5
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4/joint11 4/joint16/joint2 5/joint3 5/joint4 5
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4/joint11 4/joint16/joint2 5/joint3 5/joint4 5/joint5 5
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4/joint11 4/joint16/joint2 5/joint3 5/joint4 5/joint5 5/joint6 5
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4/joint11 4/joint16/joint2 5/joint3 5/joint4 5/joint5 5/joint6 5/joint7
+          6
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4/joint11 4/joint16/joint2 5/joint3 5/joint4 5/joint5 5/joint6 5/joint7
+          6/joint8 6
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4/joint11 4/joint16/joint2 5/joint3 5/joint4 5/joint5 5/joint6 5/joint7
+          6/joint8 6/joint9 6
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4/joint11 4/joint16/joint2 5/joint3 5/joint4 5/joint5 5/joint6 5/joint7
+          6/joint8 6/joint9 6/joint10 6
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4/joint11 4/joint16/joint2 5/joint3 5/joint4 5/joint5 5/joint6 5/joint7
+          6/joint8 6/joint9 6/joint10 6/joint11 5
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4/joint11 4/joint16/joint2 5/joint3 5/joint4 5/joint5 5/joint17
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4/joint11 4/joint16/joint2 5/joint3 5/joint4 5/joint5 5/joint17/joint7 5
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4/joint11 4/joint16/joint2 5/joint3 5/joint4 5/joint5 5/joint17/joint7 5/joint8
+          5
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4/joint11 4/joint16/joint2 5/joint3 5/joint4 5/joint5 5/joint17/joint7 5/joint8
+          5/joint9 5
+        weight: 1
+      - path: skele_group/joint1/joint2/joint3/joint4/joint5/joint6/joint7/joint8/joint9/joint10/joint11/joint12/joint2
+          1/joint3 1/joint4 1/joint5 1/joint6 1/joint7 1/joint8 1/joint9 1/joint10
+          1/joint11 1/joint13/joint2 2/joint3 2/joint4 2/joint5 2/joint6 2/joint7
+          2/joint8 2/joint9 2/joint10 2/joint11 2/joint14/joint2 3/joint3 3/joint4
+          3/joint5 3/joint6 3/joint7 3/joint8 3/joint9 3/joint10 3/joint11 3/joint15/joint2
+          4/joint3 4/joint4 4/joint5 4/joint6 4/joint7 4/joint8 4/joint9 4/joint10
+          4/joint11 4/joint16/joint2 5/joint3 5/joint4 5/joint5 5/joint17/joint7 5/joint8
+          5/joint9 5/joint10 5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

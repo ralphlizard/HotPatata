@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: a6003cba236054cc885b99e33f2d36a4
+timeCreated: 1461371925
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: balloon
+    100002: //RootNode
+    100004: geo
+    100006: joint1
+    100008: joint10
+    100010: joint10 1
+    100012: joint10 2
+    100014: joint10 3
+    100016: joint10 4
+    100018: joint10 5
+    100020: joint10 6
+    100022: joint11
+    100024: joint11 1
+    100026: joint11 2
+    100028: joint11 3
+    100030: joint11 4
+    100032: joint11 5
+    100034: joint12
+    100036: joint13
+    100038: joint14
+    100040: joint15
+    100042: joint16
+    100044: joint17
+    100046: joint2
+    100048: joint2 1
+    100050: joint2 2
+    100052: joint2 3
+    100054: joint2 4
+    100056: joint2 5
+    100058: joint3
+    100060: joint3 1
+    100062: joint3 2
+    100064: joint3 3
+    100066: joint3 4
+    100068: joint3 5
+    100070: joint4
+    100072: joint4 1
+    100074: joint4 2
+    100076: joint4 3
+    100078: joint4 4
+    100080: joint4 5
+    100082: joint5
+    100084: joint5 1
+    100086: joint5 2
+    100088: joint5 3
+    100090: joint5 4
+    100092: joint5 5
+    100094: joint6
+    100096: joint6 1
+    100098: joint6 2
+    100100: joint6 3
+    100102: joint6 4
+    100104: joint6 5
+    100106: joint7
+    100108: joint7 1
+    100110: joint7 2
+    100112: joint7 3
+    100114: joint7 4
+    100116: joint7 5
+    100118: joint7 6
+    100120: joint8
+    100122: joint8 1
+    100124: joint8 2
+    100126: joint8 3
+    100128: joint8 4
+    100130: joint8 5
+    100132: joint8 6
+    100134: joint9
+    100136: joint9 1
+    100138: joint9 2
+    100140: joint9 3
+    100142: joint9 4
+    100144: joint9 5
+    100146: joint9 6
+    100148: skele_group
+    100150: string1
+    400000: balloon
+    400002: //RootNode
+    400004: geo
+    400006: joint1
+    400008: joint10
+    400010: joint10 1
+    400012: joint10 2
+    400014: joint10 3
+    400016: joint10 4
+    400018: joint10 5
+    400020: joint10 6
+    400022: joint11
+    400024: joint11 1
+    400026: joint11 2
+    400028: joint11 3
+    400030: joint11 4
+    400032: joint11 5
+    400034: joint12
+    400036: joint13
+    400038: joint14
+    400040: joint15
+    400042: joint16
+    400044: joint17
+    400046: joint2
+    400048: joint2 1
+    400050: joint2 2
+    400052: joint2 3
+    400054: joint2 4
+    400056: joint2 5
+    400058: joint3
+    400060: joint3 1
+    400062: joint3 2
+    400064: joint3 3
+    400066: joint3 4
+    400068: joint3 5
+    400070: joint4
+    400072: joint4 1
+    400074: joint4 2
+    400076: joint4 3
+    400078: joint4 4
+    400080: joint4 5
+    400082: joint5
+    400084: joint5 1
+    400086: joint5 2
+    400088: joint5 3
+    400090: joint5 4
+    400092: joint5 5
+    400094: joint6
+    400096: joint6 1
+    400098: joint6 2
+    400100: joint6 3
+    400102: joint6 4
+    400104: joint6 5
+    400106: joint7
+    400108: joint7 1
+    400110: joint7 2
+    400112: joint7 3
+    400114: joint7 4
+    400116: joint7 5
+    400118: joint7 6
+    400120: joint8
+    400122: joint8 1
+    400124: joint8 2
+    400126: joint8 3
+    400128: joint8 4
+    400130: joint8 5
+    400132: joint8 6
+    400134: joint9
+    400136: joint9 1
+    400138: joint9 2
+    400140: joint9 3
+    400142: joint9 4
+    400144: joint9 5
+    400146: joint9 6
+    400148: skele_group
+    400150: string1
+    4300000: string1
+    4300002: balloon
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: balloon
+    13700002: string1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
