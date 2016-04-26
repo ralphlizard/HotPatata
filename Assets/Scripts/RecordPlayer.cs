@@ -16,7 +16,6 @@ public class RecordPlayer : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		gazeController = GameObject.FindGameObjectWithTag("Player").GetComponent<GazeController>();
 		music = GetComponent<AudioSource>();
 	}
 	
@@ -35,6 +34,7 @@ public class RecordPlayer : MonoBehaviour {
 		{
 			lookedAt = false;
 			gazeController.GazeRelease();
+			gazeController = null;
 		}
 		
 		else if (lookedAt)
@@ -70,5 +70,11 @@ public class RecordPlayer : MonoBehaviour {
 			if (gazeController.solved == 3)
 				gazeController.solved++;
 		}
+	}
+
+	void AttachGazeController (GazeController newGaze)
+	{
+		if (gazeController = null)
+			gazeController = newGaze;
 	}
 }

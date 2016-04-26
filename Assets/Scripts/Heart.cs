@@ -16,10 +16,17 @@ public class Heart : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		camDir = camera.transform.forward;
-		targetDir = transform.position - camera.transform.position;
-		music.volume = map(Vector3.Angle(camDir, targetDir), 180, 0, 0, 1);
-//		print (music.volume);
+		if (camera == null)
+		{
+			camera = Camera.main;
+		}
+		else
+		{
+			camDir = camera.transform.forward;
+			targetDir = transform.position - camera.transform.position;
+			music.volume = map(Vector3.Angle(camDir, targetDir), 180, 0, 0, 1);
+	//		print (music.volume);
+		}
 	}	
 
 	float map(float s, float a1, float a2, float b1, float b2)

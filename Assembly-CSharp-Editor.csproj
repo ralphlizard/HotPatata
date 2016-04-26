@@ -45,20 +45,53 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BeautifulDissolves\Editor\DissolveGlowUpdateEditor.cs" />
+     <Compile Include="Assets\BeautifulDissolves\Editor\FontDissolveShaderGUI.cs" />
+     <Compile Include="Assets\BeautifulDissolves\Editor\MobileDissolveShaderGUI.cs" />
+     <Compile Include="Assets\BeautifulDissolves\Editor\SpriteDissolveShaderGUI.cs" />
+     <Compile Include="Assets\BeautifulDissolves\Editor\StandardDissolveShaderGUI.cs" />
      <Compile Include="Assets\MecanimRagdollAnimBlender\Scripts\Editor\AnimRagdollBlender.cs" />
      <Compile Include="Assets\OVR\Moonlight\Editor\OVRMoonlightLoader.cs" />
+     <Compile Include="Assets\RealisticEyeMovements\Editor\EditorUtils.cs" />
+     <Compile Include="Assets\RealisticEyeMovements\Editor\EyeAndHeadAnimatorEditor.cs" />
+     <Compile Include="Assets\Retro Pixel Pro\Scripts\Editor\RetroPixelProEditor.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Editor\ExplosionSourceEditor.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Editor\FracturedChunkEditor.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\Fracturing\Editor\FracturedObjectEditor.cs" />
+     <Compile Include="Assets\Ultimate Game Tools\MeshCombiner\Editor\CombinedMeshEditor.cs" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\BeautifulDissolves\Shaders\Standard\DissolveCoreFunctions.cginc" />
      <None Include="Assets\Shader\Ramp.shader" />
      <None Include="Assets\Plugins\Android\assets\donotdelete.txt" />
+     <None Include="Assets\BeautifulDissolves\Shaders\UI\Font-Dissolve.shader" />
+     <None Include="Assets\BeautifulDissolves\Shaders\Includes\DissolveSpriteFunctions.cginc" />
+     <None Include="Assets\BeautifulDissolves\Shaders\Standard\DissolveStandardCore.cginc" />
+     <None Include="Assets\Retro Pixel Pro\Resources\Shaders\RetroPixelPro.shader" />
+     <None Include="Assets\BeautifulDissolves\Shaders\Sprite\Sprites-DissolveColor.shader" />
+     <None Include="Assets\Ultimate Game Tools\Fracturing\!Readme - v1.17.txt" />
+     <None Include="Assets\BeautifulDissolves\Shaders\Standard\Standard-DissolveSpecular.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\OVRColorRampAlpha.shader" />
+     <None Include="Assets\BeautifulDissolves\Shaders\UI\UI-DissolveColor.shader" />
+     <None Include="Assets\BeautifulDissolves\Shaders\Standard\DissolveStandardMeta.cginc" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
      <None Include="Assets\OVR\Moonlight\Resources\Unlit Transparent Color.shader" />
+     <None Include="Assets\BeautifulDissolves\Shaders\Mobile\Mobile-DissolveSpecular.shader" />
+     <None Include="Assets\BeautifulDissolves\Shaders\Mobile\Mobile-Dissolve.shader" />
      <None Include="Assets\MecanimRagdollAnimBlender\Readme.txt" />
+     <None Include="Assets\BeautifulDissolves\Shaders\Standard\Standard-Dissolve.shader" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\Ultimate Game Tools\Fracturing\Editor Shaders\FracturingColored.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\BeautifulDissolves\Shaders\Standard\DissolveStandardInput.cginc" />
+     <None Include="Assets\BeautifulDissolves\Shaders\Includes\DissolveMobileFunctions.cginc" />
+     <None Include="Assets\Ultimate Game Tools\MeshCombiner\!Readme - v1.02.txt" />
      <None Include="Assets\Shader\Text.shader" />
+     <None Include="Assets\Retro Pixel Pro\Readme.txt" />
+     <None Include="Assets\BeautifulDissolves\Shaders\Sprite\Sprites-Dissolve.shader" />
+     <None Include="Assets\BeautifulDissolves\Shaders\UI\UI-Dissolve.shader" />
+     <None Include="Assets\BeautifulDissolves\Shaders\Standard\DissolveStandardShadow.cginc" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>

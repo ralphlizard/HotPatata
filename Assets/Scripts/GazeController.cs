@@ -14,10 +14,12 @@ public class GazeController : NetworkBehaviour {
 	private bool activeExists;
 	private RaycastHit hit;
 	private Vector3 fwd;
+	private GameObject human;
 	public int solved;
 
 	// Use this for initialization
 	void Start () {
+		human = GameObject.FindGameObjectWithTag("Human");
 		if (isLocalPlayer)
 		{
 			eye_L.SetActive(false);
@@ -43,6 +45,8 @@ public class GazeController : NetworkBehaviour {
 		{
 			gazeTarget = hit.collider.gameObject;
 			gazeTarget.SendMessageUpwards ("LookedAt");
+			gazeTarget.SendMessageUpwards ("AttachGazeController", this);
+			
 		}
 		else if (gazeTarget != null &&
 		         Physics.Raycast (mainCamera.transform.position, fwd, out hit, 100) &&
