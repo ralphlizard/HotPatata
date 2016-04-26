@@ -15,7 +15,6 @@ public class BalloonPop : MonoBehaviour {
 
 	public void Pop()
 	{
-		print("fired");
 		transform.parent = null;
 		foreach (Rigidbody rigidBody in rigidBodies)
 			rigidBody.isKinematic = false;

@@ -31,7 +31,7 @@ using UnityEngine.Networking;
 /// A head-tracked stereoscopic virtual reality camera rig.
 /// </summary>
 [ExecuteInEditMode]
-public class OVRCameraRig : NetworkBehaviour
+public class OVRCameraRig : MonoBehaviour
 {
 	/// <summary>
 	/// The left eye camera.
@@ -87,11 +87,6 @@ public class OVRCameraRig : NetworkBehaviour
 
 		if (!Application.isPlaying)
 			return;
-		if (!isLocalPlayer)
-		{
-			print("checked");
-			this.enabled = false;
-		}
 		UpdateAnchors();
 	}
 
