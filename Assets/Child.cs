@@ -40,7 +40,10 @@ public class Child : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		headLookController.targetObject = gazeController.gameObject;
+		if (gazeController != null) {
+			headLookController.targetObject = gazeController.gameObject;
+		}
+
 		if (poppedTime != 0 && 
 			Time.time - poppedTime > deathTimer) //countdown to child's death after poking
 		{
@@ -65,12 +68,15 @@ public class Child : MonoBehaviour {
 				}
 			}
 
+			// increment while being looked at
 			if (Time.time - prevLookTime < lookBuffer &&
 				lookedAt) 
 			{
+				print (lookedAtDuration);
 				lookedAtDuration = Time.time - startLookedAt;
 			}
 
+			// reached maximum look duration
 			if (lookedAt && lookedAtDuration >= activeBuffer)
 			{
 				Activate ();
