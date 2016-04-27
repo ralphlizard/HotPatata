@@ -10,6 +10,8 @@ public class GazeController : NetworkBehaviour {
 	public GameObject eye_L;
 	public GameObject eye_R;
 	public GameObject heart;
+	public AudioListener listener;
+	public OVRCameraRig OculusCameraRig;
 	private GameObject gazeTarget;
 	private bool activeExists;
 	private RaycastHit hit;
@@ -22,8 +24,10 @@ public class GazeController : NetworkBehaviour {
 		human = GameObject.FindGameObjectWithTag("Human");
 		if (isLocalPlayer)
 		{
+			OculusCameraRig.enabled = true;
 			eye_L.SetActive(false);
 			eye_R.SetActive(false);
+			listener.enabled = true;
 			headedSlug.SetActive(false);
 			heart.SetActive(false);
 			headlessSlug.SetActive(true);

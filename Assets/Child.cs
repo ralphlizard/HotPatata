@@ -3,22 +3,24 @@ using System.Collections;
 
 public class Child : MonoBehaviour {
 	public bool isStanding;
-	public bool isScreaming;
 	public BeautifulDissolves.Dissolve dissolve;
+	public HeadLookController headLookController;
 	Human human;
 	AudioSource audio;
 	Animator anim;
 
 	public float lookBuffer = 0.5f; //length of time that needs to pass until object decides it's not being looked at
 	public float activeBuffer = 0; //length of time before object activates
-	public float volumeAmpStep = 1; 
+	public float deathTimer = 5;
 
+	float poppedTime;
 	public GazeController gazeController;
 	float lookedAtDuration;
 	float startLookedAt;
 	float prevLookTime;
 	bool lookedAt;
 	bool targeted;
+	bool fullyActive;
 
 	// Use this for initialization
 	void Start () {
@@ -38,13 +40,11 @@ public class Child : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (isScreaming)
+		headLookController.targetObject = gazeController.gameObject;
+		if (poppedTime != 0 && 
+			Time.time - poppedTime > deathTimer) //countdown to child's death after poking
 		{
-			isScreaming = false;
-			audio.Play();
-			anim.SetBool("isScreaming", true);
-			GetComponentInChildren<BalloonPop>().Pop();
-			dissolve.TriggerDissolve();
+			Destroy (this.gameObject);
 		}
 		ControlState();
 	}
@@ -53,34 +53,41 @@ public class Child : MonoBehaviour {
 	{
 		if (!targeted)
 		{
-			lookedAtDuration = Time.time - startLookedAt;
-
 			// stoppped being looked at
 			if (Time.time - prevLookTime >= lookBuffer &&
 				lookedAt)
 			{
 				lookedAt = false;
-				gazeController.GazeRelease();
-				gazeController = null;
+				if (gazeController != null) 
+				{
+					gazeController.GazeRelease ();
+					gazeController = null;
+				}
 			}
 
-			else if (lookedAt && lookedAtDuration >= activeBuffer)
+			if (Time.time - prevLookTime < lookBuffer &&
+				lookedAt) 
+			{
+				lookedAtDuration = Time.time - startLookedAt;
+			}
+
+			if (lookedAt && lookedAtDuration >= activeBuffer)
 			{
 				Activate ();
 			}
 
-			/*
-			if (!lookedAt && music.volume > 0.1f)
+			Mathf.Clamp (lookedAtDuration, 0, activeBuffer);
+
+			// decrement while not looked at
+			if (!lookedAt && lookedAtDuration > 0)
 			{
-				music.volume -= Time.deltaTime / volumeAmpStep;
+				lookedAtDuration -= Time.deltaTime;
 			}
-			*/
 		}
 	}
 
 	void LookedAt() 
 	{
-		print("Nipples");
 		prevLookTime = Time.time;
 		// is being looked at
 		if (!lookedAt) 
@@ -92,7 +99,11 @@ public class Child : MonoBehaviour {
 
 	void ReceivePoke()
 	{
-		isScreaming = true;
+		poppedTime = Time.time;
+		audio.Play();
+		anim.SetBool("isScreaming", true);
+		GetComponentInChildren<BalloonPop>().Pop();
+		dissolve.TriggerDissolve();
 	}
 
 	void Activate()

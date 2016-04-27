@@ -34,13 +34,14 @@ public class HeadLookController : MonoBehaviour {
 	public NonAffectedJoints[] nonAffectedJoints;
 	public Vector3 headLookVector = Vector3.forward;
 	public Vector3 headUpVector = Vector3.up;
-	public Vector3 target = Vector3.zero;
+	public GameObject targetObject;
+	Vector3 target = Vector3.zero;
 	// must be localRotation
 	public float yRot;
 	//
 	public float effect = 1;
 	public bool overrideAnimation = false;
-	
+
 	void Start () {
 		if (rootNode == null) {
 			rootNode = transform;
@@ -75,6 +76,15 @@ public class HeadLookController : MonoBehaviour {
 	}
 	
 	void LateUpdate () {
+		if (targetObject != null) {
+			target = targetObject.transform.position;
+			yRot = targetObject.transform.rotation.eulerAngles.z;
+		} 
+		else 
+		{
+			target = transform.forward;
+		}
+
 		if (Time.deltaTime == 0)
 			return;
 		

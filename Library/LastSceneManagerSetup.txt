@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/humanAITest.unity
+- path: Assets/network copy.unity
   isLoaded: 1
   isActive: 1
