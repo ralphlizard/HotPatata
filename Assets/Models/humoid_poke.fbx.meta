@@ -123,6 +123,7 @@ ModelImporter:
     4300002: body_geo
     4300004: R_eye_geo
     7400000: human.poke
+    7400002: human.pokeRecoil
     9500000: //RootNode
     13700000: body_geo
     13700002: L_eye_geo
@@ -152,7 +153,150 @@ ModelImporter:
       name: human.poke
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 33
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: body_geo
+        weight: 1
+      - path: L_eye_geo
+        weight: 1
+      - path: MASTER
+        weight: 1
+      - path: MASTER/HIPS
+        weight: 1
+      - path: MASTER/HIPS/SPINE_1
+        weight: 1
+      - path: MASTER/HIPS/SPINE_1/SPINE_2
+        weight: 1
+      - path: MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3
+        weight: 1
+      - path: MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/CLAVICLE_L
+        weight: 1
+      - path: MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/CLAVICLE_L/ARM_L
+        weight: 1
+      - path: MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/CLAVICLE_L/ARM_L/ELBOW_L
+        weight: 1
+      - path: MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/CLAVICLE_L/ARM_L/ELBOW_L/HAND_L
+        weight: 1
+      - path: MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/CLAVICLE_R
+        weight: 1
+      - path: MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/CLAVICLE_R/ARM_R
+        weight: 1
+      - path: MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/CLAVICLE_R/ARM_R/ELBOW_R
+        weight: 1
+      - path: MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/CLAVICLE_R/ARM_R/ELBOW_R/HAND_R
+        weight: 1
+      - path: MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/NECK
+        weight: 1
+      - path: MASTER/HIPS/SPINE_1/SPINE_2/SPINE_3/NECK/HEAD
+        weight: 1
+      - path: R_eye_geo
+        weight: 1
+      - path: spine_root
+        weight: 1
+      - path: spine_root/belly_b
+        weight: 1
+      - path: spine_root/belly_b/belly_t
+        weight: 1
+      - path: spine_root/belly_b/belly_t/joint2
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/joint3
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/neck
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/neck/head
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/neck/head/head_tip
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L/arm_L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L/arm_L/elbow_L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L/arm_L/elbow_L/hand_L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L/arm_L/elbow_L/hand_L/finger_root_L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L/arm_L/elbow_L/hand_L/finger_root_L/finger__L
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_L/arm_L/elbow_L/hand_L/finger_root_L/finger__L/finger_tip
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R/elbow_R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R/elbow_R/hand_R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R/elbow_R/hand_R/finger_root_R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R/elbow_R/hand_R/finger_root_R/finger__R
+        weight: 1
+      - path: spine_root/belly_b/belly_t/neck_root/shoulder_R/arm_R/elbow_R/hand_R/finger_root_R/finger__R/finger_tip
+          1
+        weight: 1
+      - path: spine_root/belly_b/joint1
+        weight: 1
+      - path: spine_root/hip_L
+        weight: 1
+      - path: spine_root/hip_L/leg_L
+        weight: 1
+      - path: spine_root/hip_L/leg_L/ankle_L
+        weight: 1
+      - path: spine_root/hip_L/leg_L/ankle_L/foot_L
+        weight: 1
+      - path: spine_root/hip_L/leg_L/ankle_L/foot_L/toe_L
+        weight: 1
+      - path: spine_root/hip_L/leg_L/ankle_L/foot_L/toe_L/toe_tip_L
+        weight: 1
+      - path: spine_root/hip_L/leg_L/ankle_L/foot_L/toe_skel_L
+        weight: 1
+      - path: spine_root/hip_R
+        weight: 1
+      - path: spine_root/hip_R/leg_R
+        weight: 1
+      - path: spine_root/hip_R/leg_R/ankle_R
+        weight: 1
+      - path: spine_root/hip_R/leg_R/ankle_R/foot_R
+        weight: 1
+      - path: spine_root/hip_R/leg_R/ankle_R/foot_R/toe_R
+        weight: 1
+      - path: spine_root/hip_R/leg_R/ankle_R/foot_R/toe_R/toe_tip_R
+        weight: 1
+      - path: spine_root/hip_R/leg_R/ankle_R/foot_R/toe_skel_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: human.pokeRecoil
+      takeName: Take 001
+      firstFrame: 23
+      lastFrame: 34
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

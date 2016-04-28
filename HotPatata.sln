@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{C492049D-F0A2-26F2-0C49-AD8F7B19D069}") = "HotPatata", "Assembly-CSharp-firstpass.csproj", "{6126E5DC-A160-2F22-9B5C-E26C450A9970}"
+EndProject
 Project("{C492049D-F0A2-26F2-0C49-AD8F7B19D069}") = "HotPatata", "Assembly-CSharp.csproj", "{05679D3F-E092-680A-C838-3C17537F53F2}"
 EndProject
 Project("{C492049D-F0A2-26F2-0C49-AD8F7B19D069}") = "HotPatata", "Assembly-CSharp-Editor.csproj", "{FE475B60-4519-718B-25F4-E1655EAAB58F}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6126E5DC-A160-2F22-9B5C-E26C450A9970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6126E5DC-A160-2F22-9B5C-E26C450A9970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6126E5DC-A160-2F22-9B5C-E26C450A9970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6126E5DC-A160-2F22-9B5C-E26C450A9970}.Release|Any CPU.Build.0 = Release|Any CPU
 		{05679D3F-E092-680A-C838-3C17537F53F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{05679D3F-E092-680A-C838-3C17537F53F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05679D3F-E092-680A-C838-3C17537F53F2}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -40,6 +40,7 @@ public class HeadLookController : MonoBehaviour {
 	public float yRot;
 	//
 	public float effect = 1;
+	public bool horTurnOnly;
 	public bool overrideAnimation = false;
 
 	void Start () {
@@ -83,6 +84,11 @@ public class HeadLookController : MonoBehaviour {
 		else 
 		{
 			target = transform.forward;
+		}
+
+		if (horTurnOnly)
+		{
+			target = new Vector3(0, target.y, 0);
 		}
 
 		if (Time.deltaTime == 0)

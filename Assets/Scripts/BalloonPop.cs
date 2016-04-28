@@ -3,6 +3,7 @@ using System.Collections;
 
 public class BalloonPop : MonoBehaviour {
 	Rigidbody[] rigidBodies;
+	public GameObject balloonString;
 
 	// Use this for initialization
 	void Start () {
@@ -20,5 +21,6 @@ public class BalloonPop : MonoBehaviour {
 			rigidBody.isKinematic = false;
 //		GetComponent<Rigidbody>().isKinematic = false;
 		GetComponent<AudioSource>().Play();
+		balloonString.SetActive(false);
 	}
 }

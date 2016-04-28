@@ -5,6 +5,7 @@ public class Child : MonoBehaviour {
 	public bool isStanding;
 	public BeautifulDissolves.Dissolve dissolve;
 	public HeadLookController headLookController;
+	public SkinnedMeshRenderer kidMaterial;
 	Human human;
 	AudioSource audio;
 	Animator anim;
@@ -12,6 +13,7 @@ public class Child : MonoBehaviour {
 	public float lookBuffer = 0.5f; //length of time that needs to pass until object decides it's not being looked at
 	public float activeBuffer = 0; //length of time before object activates
 	public float deathTimer = 5;
+	public float ragTimer = 2;
 
 	float poppedTime;
 	public GazeController gazeController;
@@ -39,9 +41,25 @@ public class Child : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		if (gazeController != null) {
+	void LateUpdate () {
+		/* look at current gazer
+		if (gazeController != null) 
+		{
 			headLookController.targetObject = gazeController.gameObject;
+		}
+		*/
+
+		HandlePostPoke ();
+		ControlState();
+	}
+
+	void HandlePostPoke()
+	{
+		if (poppedTime != 0 &&
+			anim.enabled &&
+			Time.time - poppedTime > ragTimer) //countdown to ragdolling
+		{
+			anim.enabled = false;
 		}
 
 		if (poppedTime != 0 && 
@@ -49,46 +67,42 @@ public class Child : MonoBehaviour {
 		{
 			Destroy (this.gameObject);
 		}
-		ControlState();
 	}
 
 	void ControlState()
 	{
 		if (!targeted)
 		{
+			// increment while being looked at
+			if (lookedAt) 
+			{
+				lookedAtDuration = Time.time - startLookedAt;
+			}
+
 			// stoppped being looked at
 			if (Time.time - prevLookTime >= lookBuffer &&
 				lookedAt)
 			{
 				lookedAt = false;
-				if (gazeController != null) 
-				{
-					gazeController.GazeRelease ();
-					gazeController = null;
-				}
+				gazeController.GazeRelease ();
+				gazeController = null;
 			}
-
-			// increment while being looked at
-			if (Time.time - prevLookTime < lookBuffer &&
-				lookedAt) 
-			{
-				print (lookedAtDuration);
-				lookedAtDuration = Time.time - startLookedAt;
-			}
-
-			// reached maximum look duration
-			if (lookedAt && lookedAtDuration >= activeBuffer)
-			{
-				Activate ();
-			}
-
-			Mathf.Clamp (lookedAtDuration, 0, activeBuffer);
 
 			// decrement while not looked at
 			if (!lookedAt && lookedAtDuration > 0)
 			{
 				lookedAtDuration -= Time.deltaTime;
 			}
+
+			Mathf.Clamp (lookedAtDuration, 0, activeBuffer);
+				
+			// reached maximum look duration
+			if (lookedAtDuration >= activeBuffer)
+			{
+				Activate ();
+			}
+			float newColor = lookedAtDuration/activeBuffer;
+			kidMaterial.material.color = new Color(newColor,newColor,newColor);
 		}
 	}
 
@@ -106,7 +120,7 @@ public class Child : MonoBehaviour {
 	void ReceivePoke()
 	{
 		poppedTime = Time.time;
-		audio.Play();
+		audio.Play(); //scream
 		anim.SetBool("isScreaming", true);
 		GetComponentInChildren<BalloonPop>().Pop();
 		dissolve.TriggerDissolve();
@@ -114,13 +128,16 @@ public class Child : MonoBehaviour {
 
 	void Activate()
 	{
+		this.tag = "Untagged";
+		gazeController.GazeRelease ();
+		gazeController = null;
 		targeted = true;
 		human.AddTarget(transform);
 	}
 
 	void AttachGazeController (GazeController newGaze)
 	{
-		if (gazeController = null)
+		if (gazeController == null)
 			gazeController = newGaze;
 	}
 }

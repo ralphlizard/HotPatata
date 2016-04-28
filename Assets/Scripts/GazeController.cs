@@ -31,8 +31,12 @@ public class GazeController : NetworkBehaviour {
 			headedSlug.SetActive(false);
 			heart.SetActive(false);
 			headlessSlug.SetActive(true);
-			mainCamera.enabled = true;
+			mainCamera.tag = "MainCamera";
 			this.gameObject.tag = "Player";
+		}
+		else
+		{
+			mainCamera.tag = "Untagged";		
 		}
 	}
 	
