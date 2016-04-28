@@ -4,7 +4,6 @@ using System.Collections;
 public class Child : MonoBehaviour {
 	public bool isStanding;
 	public BeautifulDissolves.Dissolve dissolve;
-	public HeadLookController headLookController;
 	public SkinnedMeshRenderer kidMaterial;
 	Human human;
 	AudioSource audio;
@@ -65,7 +64,7 @@ public class Child : MonoBehaviour {
 		if (poppedTime != 0 && 
 			Time.time - poppedTime > deathTimer) //countdown to child's death after poking
 		{
-			Destroy (this.gameObject);
+//			Destroy (this.gameObject);
 		}
 	}
 
@@ -121,7 +120,7 @@ public class Child : MonoBehaviour {
 	{
 		poppedTime = Time.time;
 		audio.Play(); //scream
-		anim.SetBool("isScreaming", true);
+//		anim.SetBool("isScreaming", true);
 		GetComponentInChildren<BalloonPop>().Pop();
 		dissolve.TriggerDissolve();
 	}
