@@ -5,6 +5,7 @@ public class Child : MonoBehaviour {
 	public bool isStanding;
 	public BeautifulDissolves.Dissolve dissolve;
 	public SkinnedMeshRenderer kidMaterial;
+	public Transform teleDestination;
 	Human human;
 	AudioSource audio;
 	Animator anim;
@@ -64,6 +65,7 @@ public class Child : MonoBehaviour {
 		if (poppedTime != 0 && 
 			Time.time - poppedTime > deathTimer) //countdown to child's death after poking
 		{
+			Teleport ();
 //			Destroy (this.gameObject);
 		}
 	}
@@ -138,5 +140,21 @@ public class Child : MonoBehaviour {
 	{
 		if (gazeController == null)
 			gazeController = newGaze;
+	}
+
+	void Teleport ()
+	{
+		transform.position = teleDestination.position;
+		Rigidbody[] rigidBodies = GetComponentsInChildren<Rigidbody> ();
+		foreach (Rigidbody rigidBody in rigidBodies) {
+			rigidBody.isKinematic = true;
+			rigidBody.useGravity = true;
+		}
+		GameObject purgatory = GameObject.FindGameObjectWithTag ("Purgatory");
+		transform.parent = purgatory.transform;
+		if (purgatory.GetComponent<Purgatory> ().useGravity) {
+			purgatory.GetComponent<Purgatory> ().ApplyGravity (gameObject);
+		}
+		purgatory.GetComponent<Purgatory> ().ApplyGravityAll ();
 	}
 }

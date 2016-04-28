@@ -6,6 +6,7 @@ public class Slug : MonoBehaviour {
 	BeautifulDissolves.Dissolve[] dissolves;
 	public SkinnedMeshRenderer slugMaterial1;
 	public MeshRenderer slugMaterial2;
+	public Transform teleDestination;
 	Human human;
 	AudioSource audio;
 	Animator anim;
@@ -137,5 +138,18 @@ public class Slug : MonoBehaviour {
 			return;
 		if (gazeController == null)
 			gazeController = newGaze;
+	}
+
+	void Teleport ()
+	{
+		transform.position = teleDestination.position;
+		Rigidbody[] rigidBodies = GetComponentsInChildren<Rigidbody> ();
+		foreach (Rigidbody rigidBody in rigidBodies) {
+			rigidBody.isKinematic = true;
+			rigidBody.useGravity = true;
+		}
+		GameObject purgatory = GameObject.FindGameObjectWithTag ("Purgatory");
+		transform.parent = purgatory.transform;
+		purgatory.GetComponent<Purgatory> ().ApplyGravityAll ();
 	}
 }

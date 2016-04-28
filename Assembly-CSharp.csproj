@@ -128,6 +128,7 @@
      <Compile Include="Assets\Scripts\Note.cs" />
      <Compile Include="Assets\Scripts\Pineapple.cs" />
      <Compile Include="Assets\Scripts\PineappleText.cs" />
+     <Compile Include="Assets\Scripts\Purgatory.cs" />
      <Compile Include="Assets\Scripts\RecordPlayer.cs" />
      <Compile Include="Assets\Scripts\RecordText.cs" />
      <Compile Include="Assets\Scripts\Slug.cs" />
