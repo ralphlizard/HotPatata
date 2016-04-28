@@ -18,7 +18,9 @@ public class Purgatory : MonoBehaviour {
 	{
 		Rigidbody[] rigidBodies = newObject.GetComponentsInChildren<Rigidbody> ();
 		foreach (Rigidbody rigidBody in rigidBodies) {
+			rigidBody.velocity = new Vector3 (0,0,0);
 			rigidBody.isKinematic = false;
+			rigidBody.useGravity = true;
 		}
 	}
 
@@ -27,7 +29,9 @@ public class Purgatory : MonoBehaviour {
 		useGravity = true;
 		Rigidbody[] rigidBodies = GetComponentsInChildren<Rigidbody> ();
 		foreach (Rigidbody rigidBody in rigidBodies) {
+			rigidBody.velocity = new Vector3 (0,0,0);
 			rigidBody.isKinematic = false;
+			rigidBody.useGravity = true;
 		}
 	}
 }

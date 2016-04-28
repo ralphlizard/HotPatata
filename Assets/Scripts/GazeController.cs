@@ -16,12 +16,17 @@ public class GazeController : NetworkBehaviour {
 	private bool activeExists;
 	private RaycastHit hit;
 	private Vector3 fwd;
-	private GameObject human;
+	private Transform spawn;
 	public int solved;
+	private ButterflyFlight butterfly;
+	public GameObject slugBalloon;
+	public Transform rightEye;
 
 	// Use this for initialization
 	void Start () {
-		human = GameObject.FindGameObjectWithTag("Human");
+		DontDestroyOnLoad (this.gameObject);
+		GameObject.FindGameObjectWithTag ("NetworkManager").GetComponent<InitializeNetwork> ().AttachPlayer (this);
+
 		if (isLocalPlayer)
 		{
 			OculusCameraRig.enabled = true;
@@ -31,20 +36,18 @@ public class GazeController : NetworkBehaviour {
 			headedSlug.SetActive(false);
 			heart.SetActive(false);
 			headlessSlug.SetActive(true);
-			mainCamera.tag = "MainCamera";
-			this.gameObject.tag = "Player";
+			mainCamera.enabled = true;
+//			mainCamera.tag = "MainCamera";
+//			this.gameObject.tag = "Player";
 		}
 		else
 		{
-			mainCamera.tag = "Untagged";		
+//			mainCamera.tag = "Untagged";		
 		}
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKey(KeyCode.R))
-			Application.LoadLevel(Application.loadedLevelName);
-
 		//raycast hits object
 		fwd = mainCamera.transform.TransformDirection (Vector3.forward);
 		if (gazeTarget == null &&
@@ -74,5 +77,20 @@ public class GazeController : NetworkBehaviour {
 	{
 		print ("Solved" + solved);
 		solved++;
+	}
+
+	public void ResetBalloon ()
+	{
+		if (rightEye.childCount == 0) //give new balloon
+		{
+			Instantiate (slugBalloon);
+			Vector3 tempPos = slugBalloon.transform.localPosition;
+			Quaternion tempRot = slugBalloon.transform.localRotation;
+			Vector3 tempScale = slugBalloon.transform.localScale;
+			slugBalloon.transform.parent = rightEye;
+			slugBalloon.transform.localPosition = tempPos;
+			slugBalloon.transform.localRotation = tempRot;
+			slugBalloon.transform.localScale = tempScale;
+		}
 	}
 }

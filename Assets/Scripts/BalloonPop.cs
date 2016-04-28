@@ -16,7 +16,7 @@ public class BalloonPop : MonoBehaviour {
 
 	public void Pop()
 	{
-		transform.parent = null;
+		transform.parent = GameObject.FindGameObjectWithTag("GameInstance").transform;
 		foreach (Rigidbody rigidBody in rigidBodies)
 			rigidBody.isKinematic = false;
 //		GetComponent<Rigidbody>().isKinematic = false;

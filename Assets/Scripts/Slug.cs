@@ -27,6 +27,7 @@ public class Slug : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		anim = GetComponent<Animator> ();
 		dissolves = GetComponentsInChildren<BeautifulDissolves.Dissolve> ();
 		human = GameObject.FindGameObjectWithTag("Human").GetComponent<Human>();
 		audio = GetComponent<AudioSource>();
@@ -34,6 +35,8 @@ public class Slug : MonoBehaviour {
 
 	// Update is called once per frame
 	void LateUpdate () {
+		if (targeted) 		print (GetComponent<Rigidbody> ().velocity);
+
 		/* look at current gazer
 		if (gazeController != null) 
 		{
@@ -58,7 +61,7 @@ public class Slug : MonoBehaviour {
 			Time.time - poppedTime > deathTimer) //countdown to child's death after poking
 		{
 //			teleport here
-			Destroy (this.gameObject);
+			Teleport();
 		}
 	}
 
@@ -87,7 +90,7 @@ public class Slug : MonoBehaviour {
 				lookedAtDuration -= Time.deltaTime;
 			}
 
-			Mathf.Clamp (lookedAtDuration, 0, activeBuffer);
+//			Mathf.Clamp (lookedAtDuration, 0, activeBuffer);
 
 			// reached maximum look duration
 			if (lookedAtDuration >= activeBuffer)
@@ -142,14 +145,12 @@ public class Slug : MonoBehaviour {
 
 	void Teleport ()
 	{
-		transform.position = teleDestination.position;
-		Rigidbody[] rigidBodies = GetComponentsInChildren<Rigidbody> ();
-		foreach (Rigidbody rigidBody in rigidBodies) {
-			rigidBody.isKinematic = true;
-			rigidBody.useGravity = true;
-		}
 		GameObject purgatory = GameObject.FindGameObjectWithTag ("Purgatory");
+		transform.position = purgatory.transform.position;
 		transform.parent = purgatory.transform;
+		GetComponent<Rigidbody> ().isKinematic = true;
+		GetComponent<Rigidbody> ().velocity = new Vector3 (0, 0, 0);
+		purgatory.GetComponent<Purgatory> ().ApplyGravity (gameObject);
 		purgatory.GetComponent<Purgatory> ().ApplyGravityAll ();
 	}
 }

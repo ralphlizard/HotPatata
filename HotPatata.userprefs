@@ -1,17 +1,21 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Slug.cs">
     <Files>
-      <File FileName="Assets/Head Look Controller/Scripts/HeadLookController.cs" Line="91" Column="39" />
-      <File FileName="Assets/Scripts/Heart.cs" Line="29" Column="1" />
-      <File FileName="Assets/Scripts/Human.cs" Line="65" Column="43" />
-      <File FileName="Assets/Child.cs" Line="125" Column="43" />
-      <File FileName="Assets/Scripts/GazeController.cs" Line="42" Column="14" />
-      <File FileName="Assets/OVR/Scripts/OVRCameraRig.cs" Line="34" Column="42" />
-      <File FileName="Assets/Scripts/RecordPlayer.cs" Line="37" Column="26" />
-      <File FileName="Assets/OVR/Scripts/OVRManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/BalloonPop.cs" Line="24" Column="34" />
-      <File FileName="Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" Line="3" Column="1" />
+      <File FileName="Assets\Scripts\GazeController.cs" Line="84" Column="1" />
+      <File FileName="Assets\Scripts\Heart.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Human.cs" Line="1" Column="1" />
+      <File FileName="Assets\Child.cs" Line="68" Column="16" />
+      <File FileName="Assets\OVR\Scripts\OVRCameraRig.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RecordPlayer.cs" Line="1" Column="1" />
+      <File FileName="Assets\OVR\Scripts\OVRManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BalloonPop.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Slug.cs" Line="146" Column="83" />
+      <File FileName="Assets\Scripts\Purgatory.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ButterflyFlight.cs" Line="3" Column="1" />
+      <File FileName="Assets\Scripts\InitializeNetwork.cs" Line="49" Column="17" />
+      <File FileName="Assets\Scripts\Child.cs" Line="98" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

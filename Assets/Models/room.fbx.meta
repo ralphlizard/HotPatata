@@ -30,6 +30,26 @@ ModelImporter:
     100044: wall2
     100046: wall_2
     100048: wall_2 1
+    100050: arch
+    100052: door1
+    100054: door2
+    100056: end1
+    100058: pCube15
+    100060: pCylinder2
+    100062: pCylinder3
+    100064: pPipe2
+    100066: pPlane7
+    100068: screw1
+    100070: screw10
+    100072: screw2
+    100074: screw3
+    100076: screw4
+    100078: screw5
+    100080: screw6
+    100082: screw7
+    100084: screw8
+    100086: screw9
+    100088: wall2_pCube7
     400000: bench1
     400002: bench:bench_ends
     400004: bench_ends
@@ -55,6 +75,26 @@ ModelImporter:
     400044: wall2
     400046: wall_2
     400048: wall_2 1
+    400050: arch
+    400052: door1
+    400054: door2
+    400056: end1
+    400058: pCube15
+    400060: pCylinder2
+    400062: pCylinder3
+    400064: pPipe2
+    400066: pPlane7
+    400068: screw1
+    400070: screw10
+    400072: screw2
+    400074: screw3
+    400076: screw4
+    400078: screw5
+    400080: screw6
+    400082: screw7
+    400084: screw8
+    400086: screw9
+    400088: wall2_pCube7
     2300000: bench:bench_ends
     2300002: bench_ends
     2300004: bench_ends1
@@ -76,6 +116,26 @@ ModelImporter:
     2300036: pPlane5 1
     2300038: wall_2
     2300040: wall_2 1
+    2300042: arch
+    2300044: door1
+    2300046: door2
+    2300048: end1
+    2300050: pCube15
+    2300052: pCylinder2
+    2300054: pCylinder3
+    2300056: pPipe2
+    2300058: pPlane7
+    2300060: screw1
+    2300062: screw10
+    2300064: screw2
+    2300066: screw3
+    2300068: screw4
+    2300070: screw5
+    2300072: screw6
+    2300074: screw7
+    2300076: screw8
+    2300078: screw9
+    2300080: wall2_pCube7
     3300000: bench:bench_ends
     3300002: bench_ends
     3300004: bench_ends1
@@ -97,6 +157,26 @@ ModelImporter:
     3300036: pPlane5 1
     3300038: wall_2
     3300040: wall_2 1
+    3300042: arch
+    3300044: door1
+    3300046: door2
+    3300048: end1
+    3300050: pCube15
+    3300052: pCylinder2
+    3300054: pCylinder3
+    3300056: pPipe2
+    3300058: pPlane7
+    3300060: screw1
+    3300062: screw10
+    3300064: screw2
+    3300066: screw3
+    3300068: screw4
+    3300070: screw5
+    3300072: screw6
+    3300074: screw7
+    3300076: screw8
+    3300078: screw9
+    3300080: wall2_pCube7
     4300000: pCube1
     4300002: pCube2
     4300004: pCube3
@@ -118,6 +198,26 @@ ModelImporter:
     4300036: pCylinder1
     4300038: wall_2
     4300040: pPlane5
+    4300042: pCylinder2
+    4300044: pCylinder3
+    4300046: door1
+    4300048: screw5
+    4300050: arch
+    4300052: screw1
+    4300054: screw2
+    4300056: screw3
+    4300058: screw4
+    4300060: door2
+    4300062: screw6
+    4300064: screw7
+    4300066: screw8
+    4300068: screw9
+    4300070: screw10
+    4300072: end1
+    4300074: pPlane7
+    4300076: pCube15
+    4300078: pPipe2
+    4300080: wall2_pCube7
   materials:
     importMaterials: 1
     materialName: 0

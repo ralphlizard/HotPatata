@@ -1,16 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Networking;
 
-public class Human : MonoBehaviour {
-	public Transform[] kids;
+public class Human : NetworkBehaviour {
+
 	public Transform targetSlug;
 	public bool havePoked;
-	int kidIndex = 0;
-	int kidsSize = 0;
-	Transform curTarget;
+	int targetIndex = 0;
+	int targetsSize = 0;
 	float minDistance = 0;
 	Animator anim;
 	NavMeshAgent agent;
+	public Transform[] targets;
+
+	[SyncVar]
+	Transform curTarget;
 
 	// Use this for initialization
 	void Start () {
@@ -22,17 +26,12 @@ public class Human : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (kidIndex < kids.Length)
-		{
-			curTarget = kids[kidIndex];
-		}
-		else //exhausted kids list
-		{
-			curTarget = targetSlug;
-		}
+		curTarget = targets[targetIndex];
+		print (targetIndex);
 
 		if (curTarget != null) //a target was acquired
 		{
+			print (curTarget);
 			agent.destination = curTarget.GetComponentInChildren<BalloonPop>().transform.position;
 			if (agent.remainingDistance > minDistance) //pursue target
 			{
@@ -50,7 +49,7 @@ public class Human : MonoBehaviour {
 					!anim.GetCurrentAnimatorStateInfo(0).IsName("human.idleStand") &&
 					!havePoked) //check if walking is done
 				{
-					anim.SetBool("isPoking", true); //poke the kid
+					anim.SetBool("isPoking", true); //poke the taraget
 				}
 				if (anim.GetCurrentAnimatorStateInfo(0).IsName("human.poke")) //check if poking is in progress
 				{
@@ -61,7 +60,7 @@ public class Human : MonoBehaviour {
 				else if (havePoked) //check if poking is done
 				{
 					havePoked = false;
-					kidIndex++; //pursue next kid
+					targetIndex++; //pursue next taraget
 					curTarget.SendMessageUpwards("ReceivePoke");
 				}
 			}
@@ -70,7 +69,7 @@ public class Human : MonoBehaviour {
 
 	public void AddTarget (Transform targetTransform)
 	{
-		kids[kidsSize] = targetTransform;
-		kidsSize++;
+		targets[targetsSize] = targetTransform;
+		targetsSize++;
 	}
 }
