@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 8e9cbb972f27c4db6829c5cf94b28de4
-timeCreated: 1461177332
+timeCreated: 1461951577
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -153,7 +153,7 @@ ModelImporter:
       name: human.poke
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 23
+      lastFrame: 22
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -296,7 +296,7 @@ ModelImporter:
       name: human.pokeRecoil
       takeName: Take 001
       firstFrame: 23
-      lastFrame: 34
+      lastFrame: 33
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

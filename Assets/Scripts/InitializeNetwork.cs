@@ -46,13 +46,15 @@ namespace UnityEngine.Networking
 		{
 			if (Input.GetKey (KeyCode.R)) {
 				ResetGame ();
-			print ("re");
-			}	
+			}
 		}
 
 		public void ResetGame()
 	{
 		Application.LoadLevel (Application.loadedLevel);
+		player1.GetComponent<Slug> ().Initialize ();
+		player2.GetComponent<Slug> ().Initialize ();
+		GameObject.FindGameObjectWithTag ("Human").GetComponent<Human> ().Initialize();
 		player1.ResetBalloon ();
 		player2.ResetBalloon ();
 	}

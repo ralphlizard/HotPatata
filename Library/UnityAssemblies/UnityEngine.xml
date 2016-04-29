@@ -3653,7 +3653,7 @@ Default is false.</para>
       </summary>
       <param name="delegateMethod">Delegate method.</param>
       <returns>
-        <para>Platforms that don't support Advertising Identifier return value is false and the delegate method is not invoked.</para>
+        <para>In case of error returns false and the delegate method will not be invoked.</para>
       </returns>
     </member>
     <member name="M:UnityEngine.Application.RequestUserAuthorization(UnityEngine.UserAuthorization)">
@@ -4387,7 +4387,6 @@ See Also: WWW.assetBundle, WWW.LoadFromCacheOrDownload.</param>
       </summary>
       <param name="path">Path of the file on disk.</param>
       <param name="crc">An optional CRC-32 checksum of the uncompressed content. If this is non-zero, then the content will be compared against the checksum before loading it, and give an error if it does not match.</param>
-      <param name="offset">An optional byte offset. This value specifies where to start reading the AssetBundle from.</param>
       <returns>
         <para>Loaded AssetBundle object or null if failed.</para>
       </returns>
@@ -4398,7 +4397,6 @@ See Also: WWW.assetBundle, WWW.LoadFromCacheOrDownload.</param>
       </summary>
       <param name="path">Path of the file on disk.</param>
       <param name="crc">An optional CRC-32 checksum of the uncompressed content. If this is non-zero, then the content will be compared against the checksum before loading it, and give an error if it does not match.</param>
-      <param name="offset">An optional byte offset. This value specifies where to start reading the AssetBundle from.</param>
       <returns>
         <para>Asynchronous create request for an AssetBundle. Use AssetBundleCreateRequest.assetBundle property to get an AssetBundle once it is loaded.</para>
       </returns>

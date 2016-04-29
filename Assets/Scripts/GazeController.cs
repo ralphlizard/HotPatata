@@ -12,16 +12,16 @@ public class GazeController : NetworkBehaviour {
 	public GameObject heart;
 	public AudioListener listener;
 	public OVRCameraRig OculusCameraRig;
+	public int solved;
+	public GameObject slugBalloon;
+	public Transform rightEye;
+
+	private ButterflyFlight butterfly;
 	private GameObject gazeTarget;
 	private bool activeExists;
 	private RaycastHit hit;
 	private Vector3 fwd;
 	private Transform spawn;
-	public int solved;
-	private ButterflyFlight butterfly;
-	public GameObject slugBalloon;
-	public Transform rightEye;
-
 	// Use this for initialization
 	void Start () {
 		DontDestroyOnLoad (this.gameObject);
@@ -35,13 +35,14 @@ public class GazeController : NetworkBehaviour {
 			listener.enabled = true;
 			headedSlug.SetActive(false);
 			heart.SetActive(false);
-			headlessSlug.SetActive(true);
+			headedSlug.SetActive(false);
 			mainCamera.enabled = true;
 //			mainCamera.tag = "MainCamera";
 //			this.gameObject.tag = "Player";
 		}
 		else
 		{
+			headlessSlug.SetActive (false);
 //			mainCamera.tag = "Untagged";		
 		}
 	}
@@ -52,7 +53,8 @@ public class GazeController : NetworkBehaviour {
 		fwd = mainCamera.transform.TransformDirection (Vector3.forward);
 		if (gazeTarget == null &&
 		    Physics.Raycast (mainCamera.transform.position, fwd, out hit, 100) && 
-			hit.collider.tag == "GazeAware")
+			hit.collider.tag == "GazeAware" &&
+			hit.collider != GetComponent<Collider>())
 		{
 			gazeTarget = hit.collider.gameObject;
 			gazeTarget.SendMessageUpwards ("LookedAt");

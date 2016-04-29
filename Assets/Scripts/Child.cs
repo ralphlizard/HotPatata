@@ -7,13 +7,15 @@ public class Child : MonoBehaviour {
 	public SkinnedMeshRenderer kidMaterial;
 	public Transform teleDestination;
 	public Human human;
-	AudioSource audio;
+	AudioSource[] audios;
 	Animator anim;
 
 	public float lookBuffer = 0.5f; //length of time that needs to pass until object decides it's not being looked at
 	public float activeBuffer = 0; //length of time before object activates
 	public float deathTimer = 5;
 	public float ragTimer = 2;
+	Color origColor;
+	public Color targetColor;
 
 	float poppedTime;
 	public GazeController gazeController;
@@ -23,13 +25,15 @@ public class Child : MonoBehaviour {
 	bool lookedAt;
 	bool targeted;
 	bool fullyActive;
+	bool teleported;
 
 	// Use this for initialization
 	void Start () {
+		origColor = kidMaterial.material.color;
 		if (GameObject.FindGameObjectWithTag ("Human") != null) {
 			human = GameObject.FindGameObjectWithTag ("Human").GetComponent<Human> ();
 		}
-		audio = GetComponent<AudioSource>();
+		audios = GetComponents<AudioSource>();
 		anim = GetComponent<Animator>();
 		if (isStanding)
 		{
@@ -48,13 +52,6 @@ public class Child : MonoBehaviour {
 			GameObject.FindGameObjectWithTag ("Human") != null) {
 			human = GameObject.FindGameObjectWithTag ("Human").GetComponent<Human> ();
 		}
-		/* look at current gazer
-		if (gazeController != null) 
-		{
-			headLookController.targetObject = gazeController.gameObject;
-		}
-		*/
-
 		HandlePostPoke ();
 		ControlState();
 	}
@@ -69,10 +66,10 @@ public class Child : MonoBehaviour {
 		}
 
 		if (poppedTime != 0 && 
-			Time.time - poppedTime > deathTimer) //countdown to child's death after poking
+			Time.time - poppedTime > deathTimer &&
+			!teleported) //countdown to child's death after poking
 		{
 			Teleport ();
-//			Destroy (this.gameObject);
 		}
 	}
 
@@ -108,8 +105,11 @@ public class Child : MonoBehaviour {
 			{
 				Activate ();
 			}
-			float newColor = lookedAtDuration/activeBuffer;
-			kidMaterial.material.color = new Color(newColor,newColor,newColor);
+			float newR = origColor.r + (lookedAtDuration/activeBuffer) * (targetColor.r - origColor.r);
+			float newG = origColor.g + (lookedAtDuration/activeBuffer) * (targetColor.g - origColor.g);
+			float newB = origColor.b + (lookedAtDuration/activeBuffer) * (targetColor.b - origColor.b);
+			if (kidMaterial != null)
+				kidMaterial.material.color = new Color(newR,newG,newB);
 		}
 	}
 
@@ -127,8 +127,8 @@ public class Child : MonoBehaviour {
 	void ReceivePoke()
 	{
 		poppedTime = Time.time;
-		audio.Play(); //scream
-//		anim.SetBool("isScreaming", true);
+		audios[Random.Range(0,5)].Play(); //scream
+		anim.SetBool("isScreaming", true);
 		GetComponentInChildren<BalloonPop>().Pop();
 		dissolve.TriggerDissolve();
 	}
@@ -150,11 +150,12 @@ public class Child : MonoBehaviour {
 
 	void Teleport ()
 	{
+		teleported = true;
 		transform.position = teleDestination.position;
 		Rigidbody[] rigidBodies = GetComponentsInChildren<Rigidbody> ();
 		foreach (Rigidbody rigidBody in rigidBodies) {
 			rigidBody.isKinematic = true;
-			rigidBody.velocity = new Vector3 (0, 0, 0);
+			rigidBody.velocity  = new Vector3 (0, 0, 0);
 		}
 		GameObject purgatory = GameObject.FindGameObjectWithTag ("Purgatory");
 		transform.parent = purgatory.transform;

@@ -65,6 +65,7 @@
      <Compile Include="Assets\Head Look Controller\Scripts\HeadLookController.cs" />
      <Compile Include="Assets\Head Look Controller\Scripts\HelpText.cs" />
      <Compile Include="Assets\Head Look Controller\Scripts\OrbitCamera.cs" />
+     <Compile Include="Assets\LoopBg.cs" />
      <Compile Include="Assets\MecanimRagdollAnimBlender\Scripts\BodyPhysicsController.cs" />
      <Compile Include="Assets\MecanimRagdollAnimBlender\Scripts\MouseLook.cs" />
      <Compile Include="Assets\MecanimRagdollAnimBlender\Scripts\PhysicsBodyPart.cs" />
@@ -126,6 +127,7 @@
      <Compile Include="Assets\Scripts\Heart.cs" />
      <Compile Include="Assets\Scripts\Human.cs" />
      <Compile Include="Assets\Scripts\Human1.cs" />
+     <Compile Include="Assets\Scripts\HumanFootstep.cs" />
      <Compile Include="Assets\Scripts\InitializeNetwork.cs" />
      <Compile Include="Assets\Scripts\Note.cs" />
      <Compile Include="Assets\Scripts\Pineapple.cs" />
@@ -136,6 +138,7 @@
      <Compile Include="Assets\Scripts\Slug.cs" />
      <Compile Include="Assets\Scripts\StayUpright.cs" />
      <Compile Include="Assets\Scripts\VRMouseLook.cs" />
+     <Compile Include="Assets\SpinLight.cs" />
      <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\P2T.cs" />
      <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\DelaunayTriangle.cs" />
      <Compile Include="Assets\Ultimate Game Tools\Fracturing\CDT\Triangulation\Delaunay\Sweep\AdvancingFront.cs" />

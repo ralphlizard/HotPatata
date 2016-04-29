@@ -1,0 +1,233 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_3_4
+-define:UNITY_5_3
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_LOG_MIXED_STACKTRACE
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:CROSS_PLATFORM_INPUT
+Assets/BeautifulDissolves/Scripts/Dissolve.cs
+Assets/BeautifulDissolves/Scripts/DissolveGlowUpdate.cs
+Assets/BeautifulDissolves/Scripts/DissolveHelper.cs
+Assets/BeautifulDissolves/Scripts/DissolveOnClick.cs
+Assets/BeautifulDissolves/Scripts/DissolveOnCollision.cs
+Assets/BeautifulDissolves/Scripts/DissolveOnCollision2D.cs
+Assets/BeautifulDissolves/Scripts/DissolveOnKeyPress.cs
+Assets/BeautifulDissolves/Scripts/DissolveOnSpawn.cs
+Assets/BeautifulDissolves/Scripts/DissolveOnTrigger.cs
+Assets/BeautifulDissolves/Scripts/DissolveOnTrigger2D.cs
+Assets/BeautifulDissolves/_Examples/_Assets/Scripts/AlienMove.cs
+Assets/BeautifulDissolves/_Examples/_Assets/Scripts/DissolveSlider.cs
+Assets/BeautifulDissolves/_Examples/_Assets/Scripts/LookAtObject.cs
+Assets/BeautifulDissolves/_Examples/_Assets/Scripts/RespawnManager.cs
+Assets/BeautifulDissolves/_Examples/_Assets/Scripts/UpdateLight.cs
+Assets/BeautifulDissolves/_Examples/_Assets/Scripts/Zombie.cs
+"Assets/Head Look Controller/Scripts/CursorHit.cs"
+"Assets/Head Look Controller/Scripts/HeadLookController.cs"
+"Assets/Head Look Controller/Scripts/HelpText.cs"
+"Assets/Head Look Controller/Scripts/OrbitCamera.cs"
+Assets/LoopBg.cs
+Assets/MecanimRagdollAnimBlender/Scripts/BodyPhysicsController.cs
+Assets/MecanimRagdollAnimBlender/Scripts/MouseLook.cs
+Assets/MecanimRagdollAnimBlender/Scripts/PhysicsBodyPart.cs
+Assets/MecanimRagdollAnimBlender/Scripts/TestPhysMover.cs
+Assets/OVR/Moonlight/Scripts/OVRDebugHeadController.cs
+Assets/OVR/Moonlight/Scripts/OVROverlay.cs
+Assets/OVR/Moonlight/Scripts/OVRPlatformMenu.cs
+Assets/OVR/Moonlight/Scripts/OVRTouchpad.cs
+Assets/OVR/Moonlight/Scripts/OVRVolumeControl.cs
+Assets/OVR/Moonlight/Scripts/Utils/OVRChromaticAberration.cs
+Assets/OVR/Moonlight/Scripts/Utils/OVRDebugGraph.cs
+Assets/OVR/Moonlight/Scripts/Utils/OVRDebugUtils.cs
+Assets/OVR/Moonlight/Scripts/Utils/OVRInputControl.cs
+Assets/OVR/Moonlight/Scripts/Utils/OVRModeParms.cs
+Assets/OVR/Moonlight/Scripts/Utils/OVRMonoscopic.cs
+Assets/OVR/Moonlight/Scripts/Utils/OVRResetOrientation.cs
+Assets/OVR/Moonlight/Scripts/Utils/OVRWaitCursor.cs
+Assets/OVR/Scripts/OVRCameraRig.cs
+Assets/OVR/Scripts/OVRCommon.cs
+Assets/OVR/Scripts/OVRDisplay.cs
+Assets/OVR/Scripts/OVRManager.cs
+Assets/OVR/Scripts/OVROnCompleteListener.cs
+Assets/OVR/Scripts/OVRPlugin.cs
+Assets/OVR/Scripts/OVRProfile.cs
+Assets/OVR/Scripts/OVRTracker.cs
+Assets/OVR/Scripts/Util/OVRDebugInfo.cs
+Assets/OVR/Scripts/Util/OVRGamepadController.cs
+Assets/OVR/Scripts/Util/OVRGridCube.cs
+Assets/OVR/Scripts/Util/OVRPlayerController.cs
+Assets/OVR/Scripts/Util/OVRSceneSampleController.cs
+Assets/OVR/Scripts/Util/OVRScreenFade.cs
+Assets/OVR/Scripts/Util/OVRTrackerBounds.cs
+Assets/PlayerNetworking.cs
+Assets/RealisticEyeMovements/Demo/CharacterSelector.cs
+Assets/RealisticEyeMovements/Scripts/ControlData.cs
+Assets/RealisticEyeMovements/Scripts/CritDampTweenQuaternion.cs
+Assets/RealisticEyeMovements/Scripts/DestroyNotifier.cs
+Assets/RealisticEyeMovements/Scripts/EyeAndHeadAnimator.cs
+Assets/RealisticEyeMovements/Scripts/LookTargetController.cs
+Assets/RealisticEyeMovements/Scripts/SerializableQuaternion.cs
+Assets/RealisticEyeMovements/Scripts/SerializableVector3.cs
+Assets/RealisticEyeMovements/Scripts/Utils.cs
+"Assets/Retro Pixel Pro/Scripts/ColorMapCalculator.cs"
+"Assets/Retro Pixel Pro/Scripts/ColorMapPrecision.cs"
+"Assets/Retro Pixel Pro/Scripts/ColormapUtils.cs"
+"Assets/Retro Pixel Pro/Scripts/PalettePresets.cs"
+"Assets/Retro Pixel Pro/Scripts/RetroPixelPro.cs"
+Assets/Scripts/Balloon.cs
+Assets/Scripts/BalloonPop.cs
+Assets/Scripts/BalloonText.cs
+Assets/Scripts/Butterfly.cs
+Assets/Scripts/ButterflyFlight.cs
+Assets/Scripts/Child.cs
+Assets/Scripts/ClientRPCDemo.cs
+Assets/Scripts/Flowers.cs
+Assets/Scripts/GazeAware.cs
+Assets/Scripts/GazeController.cs
+Assets/Scripts/GazeObjectTest.cs
+Assets/Scripts/Heart.cs
+Assets/Scripts/Human.cs
+Assets/Scripts/Human1.cs
+Assets/Scripts/HumanFootstep.cs
+Assets/Scripts/InitializeNetwork.cs
+Assets/Scripts/Note.cs
+Assets/Scripts/Pineapple.cs
+Assets/Scripts/PineappleText.cs
+Assets/Scripts/Purgatory.cs
+Assets/Scripts/RecordPlayer.cs
+Assets/Scripts/RecordText.cs
+Assets/Scripts/Slug.cs
+Assets/Scripts/StayUpright.cs
+Assets/Scripts/VRMouseLook.cs
+Assets/SpinLight.cs
+"Assets/Ultimate Game Tools/Fracturing/CDT/P2T.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Delaunay/DelaunayTriangle.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Delaunay/Sweep/AdvancingFront.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Delaunay/Sweep/AdvancingFrontNode.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Delaunay/Sweep/DTSweep.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Delaunay/Sweep/DTSweepBasin.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Delaunay/Sweep/DTSweepConstraint.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Delaunay/Sweep/DTSweepContext.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Delaunay/Sweep/DTSweepDebugContext.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Delaunay/Sweep/DTSweepEdgeEvent.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Delaunay/Sweep/DTSweepPointComparator.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Delaunay/Sweep/PointOnEdgeException.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/ITriangulatable.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Orientation.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Polygon/Contour.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Polygon/Polygon.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Polygon/PolygonPoint.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Polygon/PolygonSet.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Polygon/PolygonUtil.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Sets/ConstrainedPointSet.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Sets/PointSet.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/TriangulationAlgorithm.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/TriangulationConstraint.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/TriangulationContext.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/TriangulationDebugContext.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/TriangulationMode.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/TriangulationPoint.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Util/PointGenerator.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Util/PolygonGenerator.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Triangulation/Util/TriangulationUtil.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Utility/FixedArray3.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Utility/FixedBitArray3.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Utility/MathUtil.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Utility/Point2D.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Utility/Point2DList.cs"
+"Assets/Ultimate Game Tools/Fracturing/CDT/Utility/Rect2D.cs"
+"Assets/Ultimate Game Tools/Fracturing/Sample Scene Data/Scripts/LogicArcsAndColumns.cs"
+"Assets/Ultimate Game Tools/Fracturing/Sample Scene Data/Scripts/LogicCollidingSphere.cs"
+"Assets/Ultimate Game Tools/Fracturing/Sample Scene Data/Scripts/LogicCompoundObject.cs"
+"Assets/Ultimate Game Tools/Fracturing/Sample Scene Data/Scripts/LogicExplodingFloor.cs"
+"Assets/Ultimate Game Tools/Fracturing/Sample Scene Data/Scripts/LogicExplodingGoblin.cs"
+"Assets/Ultimate Game Tools/Fracturing/Sample Scene Data/Scripts/LogicGlobalFracturing.cs"
+"Assets/Ultimate Game Tools/Fracturing/Sample Scene Data/Scripts/UltimateFracturingFPS.cs"
+"Assets/Ultimate Game Tools/Fracturing/Scripts/ConcaveColliderInterface.cs"
+"Assets/Ultimate Game Tools/Fracturing/Scripts/ExplosionSource.cs"
+"Assets/Ultimate Game Tools/Fracturing/Scripts/Fracture.cs"
+"Assets/Ultimate Game Tools/Fracturing/Scripts/FracturedChunk.cs"
+"Assets/Ultimate Game Tools/Fracturing/Scripts/FracturedObject.cs"
+"Assets/Ultimate Game Tools/Fracturing/Scripts/FracturingUtilDieTimer.cs"
+"Assets/Ultimate Game Tools/Fracturing/Scripts/MeshData.cs"
+"Assets/Ultimate Game Tools/Fracturing/Scripts/SpaceTree.cs"
+"Assets/Ultimate Game Tools/Fracturing/Scripts/Split.cs"
+"Assets/Ultimate Game Tools/Fracturing/Scripts/SupportPlane.cs"
+"Assets/Ultimate Game Tools/Fracturing/Scripts/Triangulate.cs"
+"Assets/Ultimate Game Tools/MeshCombiner/Scripts/CombinedMesh.cs"
+Assets/camerLock.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
